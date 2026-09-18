@@ -5,6 +5,7 @@ import type { SiteConfig } from "@/lib/types";
 import { Header } from "@/components/layout/Header";
 import { Footer } from "@/components/layout/Footer";
 import { MotionProvider } from "@/components/motion/MotionProvider";
+import { BackToTop } from "@/components/layout/BackToTop";
 import siteJson from "../../content/site.json";
 
 // content/site.json is owned by another worker and read-only here; cast to
@@ -78,6 +79,7 @@ export default function RootLayout({ children }: Readonly<{ children: React.Reac
           <Header site={site} />
           <main id="main">{children}</main>
           <Footer site={site} />
+          <BackToTop />
         </MotionProvider>
       </body>
     </html>
