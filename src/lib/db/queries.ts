@@ -13,7 +13,7 @@
  * returned.
  */
 import { unstable_cache } from "next/cache";
-import { withReader, withWriter } from "./client";
+import { withReader } from "./client";
 import { queryCache } from "../cache/query-cache";
 import type { Block, ImageRef } from "../types";
 
@@ -773,61 +773,6 @@ export async function listDownloads(params: ListDownloadsParams = {}): Promise<P
 }
 
 /* ============================================================================
- * MEMBERSHIP APPLICATIONS (writer)
- * ========================================================================== */
-
-export interface CreateMembershipApplicationInput {
-  fullName: string;
-  email: string;
-  phone: string;
-  dob?: string;
-  icOrPassport?: string;
-  address?: string;
-  club?: string;
-  handicap?: string;
-  referrer?: string;
-  message?: string;
-}
-
-export interface MembershipApplicationResult {
-  id: number;
-  createdAt: string;
-}
-
-/**
- * Writes a membership application via the single writer connection. This is
- * a mutation, so -- unlike every read above -- it is deliberately NOT wrapped
- * in `unstable_cache`.
- */
-export function createMembershipApplication(
-  input: CreateMembershipApplicationInput
-): MembershipApplicationResult {
-  const createdAt = new Date().toISOString();
-  return withWriter((db) => {
-    const result = db.run(
-      `INSERT INTO membership_applications
-        (created_at, full_name, email, phone, dob, ic_or_passport, address, club, handicap, referrer, message, status)
-       VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, 'new')`,
-      [
-        createdAt,
-        input.fullName,
-        input.email,
-        input.phone,
-        input.dob ?? null,
-        input.icOrPassport ?? null,
-        input.address ?? null,
-        input.club ?? null,
-        input.handicap ?? null,
-        input.referrer ?? null,
-        input.message ?? null,
-      ]
-    );
-    const id = typeof result.lastInsertRowid === "bigint" ? Number(result.lastInsertRowid) : result.lastInsertRowid;
-    return { id, createdAt };
-  });
-}
-
-/* ============================================================================
  * HEALTH
  * ========================================================================== */
 
@@ -839,15 +784,7 @@ export interface HealthReport {
   error?: string;
 }
 
-const HEALTH_TABLES = [
-  "venues",
-  "events",
-  "news",
-  "gallery_albums",
-  "gallery_images",
-  "downloads",
-  "membership_applications",
-] as const;
+const HEALTH_TABLES = ["venues", "events", "news", "gallery_albums", "gallery_images", "downloads"] as const;
 
 /**
  * Deliberately NOT wrapped in `unstable_cache` -- a health check must reflect

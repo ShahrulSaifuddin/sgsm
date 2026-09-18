@@ -7,8 +7,12 @@
 -- Content tables (venues, events, event_categories, news, gallery_albums,
 -- gallery_images, downloads) are fully owned by the seed script: their rows
 -- are derived from content/*.json and are dropped + re-inserted on every
--- seed run. `membership_applications` is the one table the seed script never
--- touches -- it holds live user submissions written by the app at runtime.
+-- seed run.
+--
+-- There is no membership-applications table. Membership applications are
+-- emailed to the Society (src/lib/email/membership.ts) rather than written
+-- to SQLite, because Vercel's filesystem is read-only and ephemeral -- a row
+-- written here would never survive past the request that created it.
 
 PRAGMA foreign_keys = ON;
 
@@ -114,24 +118,3 @@ CREATE TABLE IF NOT EXISTS downloads (
   updated     TEXT -- "YYYY-MM-DD"
 );
 CREATE INDEX IF NOT EXISTS idx_downloads_category ON downloads(category);
-
--- ---------------------------------------------------------------------------
--- Membership applications (runtime writes only -- never touched by seeding)
--- ---------------------------------------------------------------------------
-CREATE TABLE IF NOT EXISTS membership_applications (
-  id             INTEGER PRIMARY KEY AUTOINCREMENT,
-  created_at     TEXT NOT NULL,
-  full_name      TEXT NOT NULL,
-  email          TEXT NOT NULL,
-  phone          TEXT NOT NULL,
-  dob            TEXT,
-  ic_or_passport TEXT,
-  address        TEXT,
-  club           TEXT,
-  handicap       TEXT,
-  referrer       TEXT,
-  message        TEXT,
-  status         TEXT NOT NULL DEFAULT 'new'
-);
-CREATE INDEX IF NOT EXISTS idx_membership_applications_created_at ON membership_applications(created_at);
-CREATE INDEX IF NOT EXISTS idx_membership_applications_email ON membership_applications(email);

@@ -17,6 +17,16 @@ The **Senior Golfers' Society of Malaysia (SGSM)** website is a complete rebuild
 
 Do not install new runtime dependencies or swap stack choices. `cheerio` exists as devDependency for build/ingest scripts only.
 
+## Membership Applications
+
+`POST /api/membership` emails each application to the Society via Resend's HTTP API (`src/lib/email/membership.ts`, plain `fetch`, no SDK) instead of writing to SQLite — Vercel's filesystem is read-only and ephemeral, so a DB write would never persist. There is no `membership_applications` table. Configuration is via env vars (see `.env.example`):
+
+- `RESEND_API_KEY` — Resend API key
+- `MEMBERSHIP_TO_EMAIL` — recipient; defaults to the Society's email in `content/site.json` (`golf@sgsm.com.my`)
+- `MEMBERSHIP_FROM_EMAIL` — verified Resend sender address
+
+If config is missing: in development the application is logged to the console and the API returns a success-shaped response explicitly marked as not sent; in production it returns 503. A Resend error returns 502. Both error responses tell the applicant to email the Society directly or use the downloadable form.
+
 ## Directory Structure
 
 ```

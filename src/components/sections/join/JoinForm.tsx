@@ -2,8 +2,11 @@
 
 import { useEffect, useId, useRef, useState, type ChangeEvent, type FormEvent } from "react";
 import { z } from "zod";
-import { CheckCircle2, Loader2, TriangleAlert } from "lucide-react";
+import { CheckCircle2, Download, Loader2, Mail, TriangleAlert } from "lucide-react";
 import { Button } from "@/components/ui/Button";
+
+const MEMBERSHIP_FORM_PDF = "/files/new-application-membership-2024.pdf";
+const SOCIETY_EMAIL = "golf@sgsm.com.my";
 
 /**
  * Mirrors `BodySchema` in `src/app/api/membership/route.ts` field-for-field
@@ -65,7 +68,7 @@ const EMPTY_VALUES: Record<FieldKey, string> = {
   message: "",
 };
 
-type Status = "idle" | "submitting" | "error" | "success" | "rate-limited" | "server-error";
+type Status = "idle" | "submitting" | "error" | "success" | "rate-limited" | "fallback";
 
 const inputClass =
   "h-12 w-full rounded-md border border-fairway-900/20 bg-cream-50 px-4 text-base text-ink-900 " +
@@ -111,11 +114,12 @@ export function JoinForm() {
   const [errors, setErrors] = useState<Partial<Record<FieldKey, string[]>>>({});
   const [status, setStatus] = useState<Status>("idle");
   const [bannerMessage, setBannerMessage] = useState<string | null>(null);
-  const [applicationId, setApplicationId] = useState<number | null>(null);
+  const [devNote, setDevNote] = useState<string | null>(null);
   const [submitCount, setSubmitCount] = useState(0);
 
   const errorSummaryRef = useRef<HTMLDivElement>(null);
   const successRef = useRef<HTMLHeadingElement>(null);
+  const fallbackRef = useRef<HTMLHeadingElement>(null);
 
   const hasFieldErrors = Object.keys(errors).length > 0;
 
@@ -128,6 +132,12 @@ export function JoinForm() {
   useEffect(() => {
     if (status === "success") {
       successRef.current?.focus();
+    }
+  }, [status]);
+
+  useEffect(() => {
+    if (status === "fallback") {
+      fallbackRef.current?.focus();
     }
   }, [status]);
 
@@ -164,8 +174,8 @@ export function JoinForm() {
       });
 
       if (response.status === 201) {
-        const data = (await response.json()) as { id: number };
-        setApplicationId(data.id);
+        const data = (await response.json()) as { status: "sent" | "dev-logged"; note?: string };
+        setDevNote(data.status === "dev-logged" ? (data.note ?? null) : null);
         setStatus("success");
         return;
       }
@@ -186,11 +196,12 @@ export function JoinForm() {
         return;
       }
 
-      setBannerMessage("Something went wrong on our end. Please try again, or contact us directly.");
-      setStatus("server-error");
+      // 502/503/other -- the application genuinely was not delivered. Never
+      // show a success state here; point the applicant at the fallback
+      // paths instead (direct email or the downloadable form).
+      setStatus("fallback");
     } catch {
-      setBannerMessage("We couldn't reach the server. Please check your connection and try again.");
-      setStatus("server-error");
+      setStatus("fallback");
     }
   }
 
@@ -205,10 +216,45 @@ export function JoinForm() {
           Thank you — your application is in!
         </h2>
         <p className="mt-3 text-ink-700">
-          {applicationId ? `Reference #${applicationId}. ` : ""}
-          A member of our council will be in touch to guide you through the next steps. We look forward to
-          welcoming you to the Society.
+          Your application has been sent to the Society. A member of our council will be in touch to guide you
+          through the next steps. We look forward to welcoming you.
         </p>
+        {devNote ? <p className="mt-4 text-sm text-ink-500">Developer note: {devNote}</p> : null}
+      </div>
+    );
+  }
+
+  if (status === "fallback") {
+    return (
+      <div
+        role="alert"
+        className="rounded-lg border border-red-600/40 bg-red-50 p-8 text-center"
+      >
+        <TriangleAlert className="mx-auto h-12 w-12 text-red-700" aria-hidden="true" />
+        <h2 ref={fallbackRef} tabIndex={-1} className="mt-4 text-2xl text-fairway-950 focus:outline-none">
+          We couldn&apos;t send your application
+        </h2>
+        <p className="mt-3 text-ink-700">
+          Something went wrong on our end and your application didn&apos;t go through. Please use one of the
+          options below instead.
+        </p>
+        <div className="mt-6 flex flex-col items-center gap-3 sm:flex-row sm:justify-center">
+          <Button
+            href={`mailto:${SOCIETY_EMAIL}`}
+            variant="primary"
+            icon={<Mail className="h-5 w-5" aria-hidden="true" />}
+          >
+            Email {SOCIETY_EMAIL}
+          </Button>
+          <Button
+            href={MEMBERSHIP_FORM_PDF}
+            download
+            variant="secondary"
+            icon={<Download className="h-5 w-5" aria-hidden="true" />}
+          >
+            Download application form
+          </Button>
+        </div>
       </div>
     );
   }

@@ -158,16 +158,6 @@ const HOT_QUERIES = [
     sql: `SELECT COUNT(*) AS total FROM downloads INDEXED BY idx_downloads_category WHERE category = ?`,
     params: ["Downloads"],
   },
-  {
-    name: "membership applications by email",
-    sql: `SELECT * FROM membership_applications WHERE email = ? ORDER BY created_at DESC`,
-    params: ["someone@example.com"],
-  },
-  {
-    name: "membership applications by created_at range",
-    sql: `SELECT * FROM membership_applications WHERE created_at >= ? ORDER BY created_at DESC`,
-    params: ["2020-01-01T00:00:00.000Z"],
-  },
 ];
 
 function isBareTableScan(detail) {
