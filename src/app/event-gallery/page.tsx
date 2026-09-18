@@ -1,13 +1,10 @@
 import type { Metadata } from "next";
-import { Images } from "lucide-react";
+import { Suspense } from "react";
 import { Container } from "@/components/ui/Container";
-import { Pagination } from "@/components/ui/Pagination";
-import { EmptyState } from "@/components/ui/EmptyState";
 import { Breadcrumbs } from "@/components/layout/Breadcrumbs";
 import { Reveal } from "@/components/motion/Reveal";
-import { Stagger } from "@/components/motion/Stagger";
-import { listAlbums } from "@/lib/db/queries";
-import { AlbumCard } from "@/components/sections/gallery/AlbumCard";
+import { GalleryResults, type GalleryRawSearchParams } from "@/components/sections/gallery/GalleryResults";
+import { GalleryResultsSkeleton } from "@/components/sections/gallery/GalleryResultsSkeleton";
 
 export const metadata: Metadata = {
   title: "Event Gallery",
@@ -21,15 +18,16 @@ export const metadata: Metadata = {
   },
 };
 
-export default async function EventGalleryPage({
+/**
+ * Not `async` — `searchParams` is passed straight through to `GalleryResults`
+ * without being awaited here, so this shell (breadcrumbs, heading, intro) can
+ * stream immediately while the SQLite query resolves inside the Suspense boundary.
+ */
+export default function EventGalleryPage({
   searchParams,
 }: {
-  searchParams: Promise<{ page?: string }>;
+  searchParams: Promise<GalleryRawSearchParams>;
 }) {
-  const raw = await searchParams;
-  const page = Number(raw.page) || 1;
-  const result = await listAlbums({ page });
-
   return (
     <>
       <Container size="lg" className="pt-10 sm:pt-14">
@@ -48,29 +46,9 @@ export default async function EventGalleryPage({
           </p>
         </Reveal>
 
-        {result.rows.length === 0 ? (
-          <EmptyState
-            className="mt-10"
-            icon={<Images className="h-10 w-10" aria-hidden="true" />}
-            title="No albums yet"
-            description="Check back after the next event."
-          />
-        ) : (
-          <>
-            <Stagger className="mt-10 grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-3">
-              {result.rows.map((album, index) => (
-                <AlbumCard key={album.id} album={album} priority={page === 1 && index === 0} />
-              ))}
-            </Stagger>
-
-            <Pagination
-              className="mt-12"
-              currentPage={result.page}
-              totalPages={result.pages}
-              hrefForPage={(p) => (p === 1 ? "/event-gallery" : `/event-gallery?page=${p}`)}
-            />
-          </>
-        )}
+        <Suspense fallback={<GalleryResultsSkeleton />}>
+          <GalleryResults searchParams={searchParams} />
+        </Suspense>
       </Container>
     </>
   );

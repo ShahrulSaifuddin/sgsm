@@ -1,5 +1,6 @@
 import { Container } from "@/components/ui/Container";
-import { Skeleton, SkeletonTable } from "@/components/ui/Skeleton";
+import { Skeleton } from "@/components/ui/Skeleton";
+import { DownloadsResultsSkeleton } from "@/components/sections/downloads/DownloadsResultsSkeleton";
 
 export default function Loading() {
   return (
@@ -15,10 +16,7 @@ export default function Loading() {
           <Skeleton className="h-5 w-full max-w-xl" />
         </div>
 
-        <Skeleton className="mt-8 h-12 w-full max-w-md" />
-        <Skeleton className="mt-6 h-4 w-32" />
-
-        <SkeletonTable className="mt-8" rows={7} columns={1} />
+        <DownloadsResultsSkeleton />
       </Container>
     </>
   );

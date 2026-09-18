@@ -1,15 +1,10 @@
 import type { Metadata } from "next";
-import { FolderOpen } from "lucide-react";
+import { Suspense } from "react";
 import { Container } from "@/components/ui/Container";
-import { Button } from "@/components/ui/Button";
-import { Pagination } from "@/components/ui/Pagination";
-import { EmptyState } from "@/components/ui/EmptyState";
 import { Breadcrumbs } from "@/components/layout/Breadcrumbs";
 import { Reveal } from "@/components/motion/Reveal";
-import { Stagger } from "@/components/motion/Stagger";
-import { listDownloads } from "@/lib/db/queries";
-import { DownloadsSearch } from "@/components/sections/downloads/DownloadsSearch";
-import { DownloadListItem } from "@/components/sections/downloads/DownloadListItem";
+import { DownloadsResults, type DownloadsRawSearchParams } from "@/components/sections/downloads/DownloadsResults";
+import { DownloadsResultsSkeleton } from "@/components/sections/downloads/DownloadsResultsSkeleton";
 
 export const metadata: Metadata = {
   title: "Downloads",
@@ -23,23 +18,12 @@ export const metadata: Metadata = {
   },
 };
 
-type RawSearchParams = { page?: string; q?: string };
-
-export default async function DownloadsPage({ searchParams }: { searchParams: Promise<RawSearchParams> }) {
-  const raw = await searchParams;
-  const page = Number(raw.page) || 1;
-  const q = raw.q || undefined;
-
-  const result = await listDownloads({ page, q });
-
-  function hrefForPage(p: number): string {
-    const params = new URLSearchParams();
-    if (q) params.set("q", q);
-    if (p > 1) params.set("page", String(p));
-    const qs = params.toString();
-    return `/downloads${qs ? `?${qs}` : ""}`;
-  }
-
+/**
+ * Not `async` — `searchParams` is passed straight through to `DownloadsResults`
+ * without being awaited here, so this shell (breadcrumbs, heading, intro) can
+ * stream immediately while the SQLite query resolves inside the Suspense boundary.
+ */
+export default function DownloadsPage({ searchParams }: { searchParams: Promise<DownloadsRawSearchParams> }) {
   return (
     <>
       <Container size="lg" className="pt-10 sm:pt-14">
@@ -58,37 +42,9 @@ export default async function DownloadsPage({ searchParams }: { searchParams: Pr
           </p>
         </Reveal>
 
-        <div className="mt-8">
-          <DownloadsSearch defaultValue={q ?? ""} />
-        </div>
-
-        <p className="mt-6 text-sm text-ink-500" aria-live="polite">
-          {result.total} file{result.total === 1 ? "" : "s"} found
-        </p>
-
-        {result.rows.length === 0 ? (
-          <EmptyState
-            className="mt-8"
-            icon={<FolderOpen className="h-10 w-10" aria-hidden="true" />}
-            title="No downloads match your search"
-            description="Try a different keyword."
-            action={
-              <Button href="/downloads" variant="secondary">
-                Clear search
-              </Button>
-            }
-          />
-        ) : (
-          <>
-            <Stagger as="ul" className="mt-8 flex list-none flex-col gap-4">
-              {result.rows.map((download) => (
-                <DownloadListItem key={download.id} download={download} />
-              ))}
-            </Stagger>
-
-            <Pagination className="mt-12" currentPage={result.page} totalPages={result.pages} hrefForPage={hrefForPage} />
-          </>
-        )}
+        <Suspense fallback={<DownloadsResultsSkeleton />}>
+          <DownloadsResults searchParams={searchParams} />
+        </Suspense>
       </Container>
     </>
   );

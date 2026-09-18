@@ -1,5 +1,6 @@
 import { Container } from "@/components/ui/Container";
-import { Skeleton, SkeletonCard } from "@/components/ui/Skeleton";
+import { Skeleton } from "@/components/ui/Skeleton";
+import { NewsResultsSkeleton } from "@/components/sections/news/NewsResultsSkeleton";
 
 export default function Loading() {
   return (
@@ -15,14 +16,7 @@ export default function Loading() {
           <Skeleton className="h-5 w-full max-w-xl" />
         </div>
 
-        <Skeleton className="mt-8 h-24 w-full max-w-sm" />
-        <Skeleton className="mt-6 h-4 w-32" />
-
-        <div className="mt-8 grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-3">
-          {Array.from({ length: 6 }).map((_, i) => (
-            <SkeletonCard key={i} padding="sm" />
-          ))}
-        </div>
+        <NewsResultsSkeleton />
       </Container>
     </>
   );
