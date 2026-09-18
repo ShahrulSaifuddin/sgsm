@@ -1,0 +1,131 @@
+{
+  "title": "Working Committees",
+  "committees": [
+    {
+      "name": "Golf Tournament Committee",
+      "members": [
+        {
+          "name": "Encik Jeffery Foo Chok Ti",
+          "role": "Chairman"
+        }
+      ]
+    },
+    {
+      "name": "Sub - Committee Coordination Committee",
+      "members": [
+        {
+          "name": "Gen. Tan Sri Dato' Sri (Dr.) Haji Abdul Aziz Zainal (Rtd)",
+          "role": "Chairman"
+        }
+      ]
+    },
+    {
+      "name": "Sponsorship & Collaboration Committee",
+      "members": [
+        {
+          "name": "Dato' Lee Ming Tiong",
+          "role": "Chairman"
+        }
+      ]
+    },
+    {
+      "name": "Discipline, Legal, Constitutional Matters & Governmental Liaison Committee",
+      "members": [
+        {
+          "name": "Dato' Ishak Haji Mohamed",
+          "role": "Chairman"
+        }
+      ]
+    },
+    {
+      "name": "Membership (Zone 1 ) Committee",
+      "members": [
+        {
+          "name": "Datuk Mansor Mahamood",
+          "role": "Chairman"
+        }
+      ]
+    },
+    {
+      "name": "Membership (Zone 2) Committee",
+      "members": [
+        {
+          "name": "Encik Abdul Latiff Jamin",
+          "role": "Chairman"
+        }
+      ]
+    },
+    {
+      "name": "Membership (Zone 3) Committee",
+      "members": [
+        {
+          "name": "Datuk Ir. Abdullah Kasim",
+          "role": "Chairman"
+        }
+      ]
+    },
+    {
+      "name": "Members Welfare & Golden Senior Development Program Committee",
+      "members": [
+        {
+          "name": "Encik Hasan Addly Mohd Isa",
+          "role": "Chairman"
+        }
+      ]
+    },
+    {
+      "name": "SGSM Merchandising, Branding & Collaboration Committee",
+      "members": [
+        {
+          "name": "Lt. Cdr. Puah Bok Chuan (Rtd)",
+          "role": "Chairman"
+        }
+      ]
+    },
+    {
+      "name": "Golfing Development Program Committee",
+      "members": [
+        {
+          "name": "Lt. Col. Md. Zain Mahamod (Rtd)",
+          "role": "Chairman"
+        }
+      ]
+    },
+    {
+      "name": "Property, Building & Maintenance Committee",
+      "members": [
+        {
+          "name": "Michael Tan Kim Peng",
+          "role": "Chairman"
+        }
+      ]
+    },
+    {
+      "name": "Multimedia Communication, Advertising & Promotion Committee",
+      "members": [
+        {
+          "name": "Encik Mohd Toha Shuheimi Abd Latif",
+          "role": "Chairman"
+        }
+      ]
+    },
+    {
+      "name": "Golf Infrastructure, Technical Development Program Committee",
+      "members": [
+        {
+          "name": "Encik Idris Ngah",
+          "role": "Chairman"
+        }
+      ]
+    },
+    {
+      "name": "Smart Partnership & Fund Raising Program Committee",
+      "members": [
+        {
+          "name": "Dato' Haji Mohamad Haslah Mohamad Amin",
+          "role": "Chairman"
+        }
+      ]
+    }
+  ]
+}

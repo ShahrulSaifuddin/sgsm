@@ -1,0 +1,25 @@
+{
+  "slug": "president-message",
+  "title": "President's Message",
+  "description": "Welcome to Senior Golfer’s Society of Malaysia. We are very proud to be part of a great tradition as our Society was founded back in the 1930s and still stand…",
+  "blocks": [
+    {
+      "type": "paragraph",
+      "html": "Welcome to Senior Golfer’s Society of Malaysia. We are very <br>proud to be part of a great tradition as our Society was founded <br>back in the 1930s and still stand tall till to date. Not many <br>societies would have lasted close to a century and we are sure <br>that in about a decade’s time when we celebrate our 100th <br>Anniversary, we would have become a formidable society that<br> all senior golfers have come to appreciate. <br> <br>SGSM prides itself for offering a host of benefits for its members. <br>As golf enthusiasts, members can enjoy a round of golf, or two, in <br>any one of the golf clubs that offer their green at reduced rates. <br>This is one of the main attractions of our Society which caters<br> exclusively to those aged 55 and above. We believe that when we <br>approach retirement or have retired at 55 years age and want to <br>enjoy our retirement doing what we love most – in this case,<br> golfing – we should enjoy the greens at special discounts to go <br>easy on our pockets! <br> <br> In addition to that, members who wish to play at any of these club<br> located all over the country can also get special room discounts to<br> truly enjoy a golfing vacation or golfcation, as we prefer call it. <br> <br>That said, we would also like to highlight that SGSM is not only a society that’s purely about golf and nothing more. We host a number of activities throughout the year which helps members bond with one another. Today, the Society has grown into one big family of people who share similar interests. <br> <br>Apart from the golfing competitions, which reward our players, we are also looking into organising some fund raising competitions as part of our community outreach. We would love to hear from our members, too, on how we can reach out to those in need. <br> <br>We hope to continuously grow our membership. Do let your friends, acquaintances and relatives know about us. Spread the word, and let’s get more members! Happy Golfing !"
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Dato’ Shamsudin Ismail President SGSM"
+    }
+  ],
+  "hero": {
+    "title": "President's Message",
+    "image": {
+      "src": "/images/2022/09/president.jpg",
+      "alt": "President, SGSM",
+      "width": 451,
+      "height": 579
+    }
+  }
+}

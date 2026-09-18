@@ -1,0 +1,138 @@
+{
+  "golfing": [
+    {
+      "id": 2028,
+      "slug": "the-mines-resort-country-club",
+      "title": "THE MINES RESORT & COUNTRY CLUB",
+      "image": {
+        "src": "/images/2024/05/the-mines.png",
+        "alt": "THE MINES RESORT & COUNTRY CLUB",
+        "width": 225,
+        "height": 225
+      },
+      "summary": "Malaysia, a land blessed with abundant natural resources, became the world’s largest producer of tin in the early 20th century. Fetching lucrative prices, the precious mineral was mined extensively…"
+    },
+    {
+      "id": 816,
+      "slug": "impian-golf-country-club",
+      "title": "Impian Golf & Country Club",
+      "image": {
+        "src": "/images/2022/10/impian-tb.png",
+        "alt": "Impian Golf & Country Club",
+        "width": 325,
+        "height": 250
+      },
+      "summary": "The 18-hole Impian Golf & Country Club features an enthralling layout that winds its way through a flat plateau bordered by trees, punctuated by various climbs and drops, across a …"
+    },
+    {
+      "id": 821,
+      "slug": "kelab-rahman-putra-malaysia",
+      "title": "Kelab Rahman Putra Malaysia",
+      "image": {
+        "src": "/images/2022/10/kelab-rahman-tb.png",
+        "alt": "Kelab Rahman Putra Malaysia",
+        "width": 325,
+        "height": 250
+      },
+      "summary": "The Golf course was designed by Late Tun Ghafar Baba and was opened in 1987. The course is divided into 2 championship courses namely The Lakes and The Hills. The …"
+    },
+    {
+      "id": 830,
+      "slug": "kelab-golf-negara-subang",
+      "title": "Kelab Golf Negara Subang",
+      "image": {
+        "src": "/images/2022/10/kgns-tb.png",
+        "alt": "Kelab Golf Negara Subang",
+        "width": 325,
+        "height": 250
+      },
+      "summary": "Privileges SGSM Rate Weekday (before 9am) RM 190.00*Incl. 18h GF, Buggy & Caddy Fee (Sharing)Daily Insurance Published Rate Weekday RM 247.50*Incl. 18h GF, Buggy & Caddy Fee (Sharing)Daily Insurance…"
+    },
+    {
+      "id": 832,
+      "slug": "kelab-rekreasi-tentera-udara",
+      "title": "Kelab Rekreasi Tentera Udara",
+      "image": {
+        "src": "/images/2022/10/krtu-tb.png",
+        "alt": "Kelab Rekreasi Tentera Udara",
+        "width": 325,
+        "height": 250
+      },
+      "summary": "Kelab Rekreasi Tentera Udara (KRTU), also known as Royal Malaysian Air Force (RMAF) Recreation Club is located within the perimeter of a RMAF Subang Air Base. KRTU was the country’s …"
+    },
+    {
+      "id": 839,
+      "slug": "kota-permai-golf-country-club",
+      "title": "Kota Permai Golf & Country Club",
+      "image": {
+        "src": "/images/2022/10/kota-permai-tb.png",
+        "alt": "Kota Permai Golf & Country Club",
+        "width": 325,
+        "height": 250
+      },
+      "summary": "Kota Permai is the perfect getaway for golf and recreational pleasures. Our country club is the talk of the town offering arguably, the best golfing experience in Malaysia. You will …"
+    },
+    {
+      "id": 837,
+      "slug": "kuala-lumpur-golf-country-club",
+      "title": "Kuala Lumpur Golf & Country Club",
+      "image": {
+        "src": "/images/2022/10/klgcc-tb.png",
+        "alt": "Kuala Lumpur Golf & Country Club",
+        "width": 325,
+        "height": 250
+      },
+      "summary": "Established in 1991, this world-class golf destination is strategically located in Mont Kiara, just 8 kilometres from the heart of Kuala Lumpur. Set across 220,000 sq. feet of lush green …"
+    },
+    {
+      "id": 843,
+      "slug": "staffield-country-resort",
+      "title": "Staffield Country Resort",
+      "image": {
+        "src": "/images/2022/10/staffield-tb.png",
+        "alt": "Staffield Country Resort",
+        "width": 325,
+        "height": 250
+      },
+      "summary": "Resting in the heart of a landscape blessed with natural beauty, Staffield’s Golf Course is one of the top scenic golf courses in Seremban, as well as in Malaysia. Our …"
+    },
+    {
+      "id": 835,
+      "slug": "templer-park-country-club",
+      "title": "Templer Park Country Club",
+      "image": {
+        "src": "/images/2022/10/templer-tb.png",
+        "alt": "Templer Park Country Club",
+        "width": 325,
+        "height": 250
+      },
+      "summary": "It’s easy to be mesmerized by the might Bukit Takun limestone hills that towers over Templer Park Country Club as it takes on different moods depending on the weather. Early …"
+    },
+    {
+      "id": 841,
+      "slug": "tiara-melaka-golf-country-club",
+      "title": "Tiara Melaka Golf & Country Club",
+      "image": {
+        "src": "/images/2022/10/tiara-tb.png",
+        "alt": "Tiara Melaka Golf & Country Club",
+        "width": 325,
+        "height": 250
+      },
+      "summary": "Tiara Melaka is a beautiful golf and country club that was established in 2001 just outside Melaka. Within its 27-hole layout, Tiara Melaka contains the superb Woodlands-nine, a good nine-hole …"
+    },
+    {
+      "id": 819,
+      "slug": "tropicana-golf-country-resort",
+      "title": "Tropicana Golf & Country Resort",
+      "image": {
+        "src": "/images/2022/10/tropicana-tb.png",
+        "alt": "Tropicana Golf & Country Resort",
+        "width": 325,
+        "height": 250
+      },
+      "summary": "The Tropicana Golf & Country Resort’s 27-hole championship golf course is known to be among the best in the country, with many golf enthusiasts regularly making this a key stop …"
+    }
+  ],
+  "hotels-and-restaurants": [],
+  "others": []
+}

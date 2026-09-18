@@ -1,0 +1,102 @@
+{
+  "slug": "collaborative-partnership",
+  "title": "Collaboration Partners",
+  "description": "SGSM's collaboration partners across government agencies, tourism bodies and golf associations.",
+  "blocks": [
+    {
+      "type": "cards",
+      "items": [
+        {
+          "title": "Jabatan Perdana Menteri",
+          "image": {
+            "src": "/images/2022/10/jpm-1.png",
+            "alt": "Jabatan Perdana Menteri",
+            "width": 240,
+            "height": 240
+          }
+        },
+        {
+          "title": "Kementerian Belia dan Sukan",
+          "image": {
+            "src": "/images/2022/10/kbs-1.png",
+            "alt": "Kementerian Belia dan Sukan",
+            "width": 240,
+            "height": 240
+          }
+        },
+        {
+          "title": "Kementerian Pelancongan dan Kebudayaan Malaysia",
+          "image": {
+            "src": "/images/2022/10/motac.png",
+            "alt": "Kementerian Pelancongan dan Kebudayaan Malaysia",
+            "width": 240,
+            "height": 240
+          }
+        },
+        {
+          "title": "Kementerian Wilayah Persekutuan",
+          "image": {
+            "src": "/images/2022/10/kwp.png",
+            "alt": "Kementerian Wilayah Persekutuan",
+            "width": 240,
+            "height": 240
+          }
+        },
+        {
+          "title": "Pesuruhjaya Sukan Malaysia",
+          "image": {
+            "src": "/images/2022/10/psm.png",
+            "alt": "Pesuruhjaya Sukan Malaysia",
+            "width": 240,
+            "height": 240
+          }
+        },
+        {
+          "title": "Tourism Malaysia",
+          "image": {
+            "src": "/images/2022/10/tourism.png",
+            "alt": "Tourism Malaysia",
+            "width": 240,
+            "height": 240
+          }
+        },
+        {
+          "title": "Dewan Bandaraya Kuala Lumpur",
+          "image": {
+            "src": "/images/2022/10/dbkl.png",
+            "alt": "Dewan Bandaraya Kuala Lumpur",
+            "width": 240,
+            "height": 240
+          }
+        },
+        {
+          "title": "CASGA",
+          "image": {
+            "src": "/images/2022/10/casga.png",
+            "alt": "CASGA",
+            "width": 238,
+            "height": 238
+          }
+        },
+        {
+          "title": "Malaysian Golf Association",
+          "image": {
+            "src": "/images/2022/10/mga.png",
+            "alt": "Malaysian Golf Association",
+            "width": 240,
+            "height": 240
+          }
+        },
+        {
+          "title": "MALGA",
+          "image": {
+            "src": "/images/2022/10/malga.png",
+            "alt": "MALGA",
+            "width": 240,
+            "height": 240
+          }
+        }
+      ]
+    }
+  ]
+}

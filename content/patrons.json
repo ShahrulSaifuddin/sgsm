@@ -1,0 +1,70 @@
+{
+  "title": "Patrons and Honorary Members",
+  "groups": [
+    {
+      "title": "Royal Patron",
+      "people": [
+        {
+          "name": "DULI YANG MAHA MULIA TUANKU SYED SIRAJUDDIN IBNI ALMARHUM TUANKU SYED PUTRA JAMALULLAIL",
+          "title": "D.K.P., D.K., S.S.P.J., D.K.M., D.M.N., D.K.(PERAK), D.K.(KEDAH), D.K.(KELANTAN), D.K.M.B.(BRUNEI), D.K.(SELANGOR), D.K.(PAHANG), D.K. II(TERENGGANU), S.P.M.J., S.P.C.M., S.S.M.T., GRAND ORDER OF KING TOMISLAV (CROATIA), GRAND COLLIER DE L’INDEPENDENCE (GRAND MEDAL OF THE INDEPENDENCE) – CAMBODIA, GRAND CROIX DE L’ORDRE (ROYAL SASH) – CAMBODIA, CAVALIERE DI GRAN CROCE DECORATO DI GRAN CORDONE (ITALY), QILADAH BADR AL-KUBRA (ARAB SAUDI), DECORATION OF OMAYAD – THE FINEST DECORATION (SYRIA), KNIGHT OF THE ROYAL ORDER OF THE SERAPHIM (SWEDEN), GRAND CORDON OF THE ORDER OF THE SACRED TREASURE (JAPAN)",
+          "image": {
+            "src": "/images/2022/10/dymmtuankusyedsirajuddin2.jpg",
+            "alt": "DULI YANG MAHA MULIA TUANKU SYED SIRAJUDDIN IBNI ALMARHUM TUANKU SYED PUTRA JAMALULLAIL",
+            "width": 577,
+            "height": 919
+          }
+        }
+      ]
+    },
+    {
+      "title": "Patrons",
+      "people": [
+        {
+          "name": "YANG AMAT BERBAHAGIA TUN DATUK SERI UTAMA DR HAJI MOHD KHALIL bIN YAAKOB",
+          "title": "S.M.N., D.U.N.M., S.U.M.Z., S.J.M.K., S.S.A.P., P.S.M., S.I.M.P., S.P.D.K., D.P., D.S.A.P., J.S.M., S.M.P., G.C.O.M.(Germany).",
+          "image": {
+            "src": "/images/2022/10/mohdkhalilbinyaakob.jpg",
+            "alt": "YANG AMAT BERBAHAGIA TUN DATUK SERI UTAMA DR HAJI MOHD KHALIL bIN YAAKOB",
+            "width": 600,
+            "height": 400
+          }
+        },
+        {
+          "name": "Yang Amat Berbahagia Tun Tan Sri Dato’ Seri (dr) Md Raus BIN Sharif",
+          "title": "S.S.M., P.M.N., P.S.M., D.A., S.S.T.M., S.P.D.K., S.S.A.P., KHN",
+          "image": {
+            "src": "/images/2022/10/tunmdraussharif2.jpg",
+            "alt": "Yang Amat Berbahagia Tun Tan Sri Dato’ Seri (dr) Md Raus BIN Sharif",
+            "width": 609,
+            "height": 767
+          }
+        },
+        {
+          "name": "Yang Berbahagia Tan Sri Dato' SRI (DR) Sallehuddin BIN Mohamed",
+          "title": "P.m.n., p.s.m., s.s.a.p., s.s.i.s, s.i.m.p., d.h.m.s., d.i.m.p., j.m.n., k.m.n.",
+          "image": {
+            "src": "/images/2022/09/sallehuddinmohamed.jpg",
+            "alt": "Yang Berbahagia Tan Sri Dato' SRI (DR) Sallehuddin BIN Mohamed",
+            "width": 279,
+            "height": 359
+          }
+        }
+      ]
+    },
+    {
+      "title": "Honorary Members",
+      "people": [
+        {
+          "name": "YANG BERBAHAGIA TAN SRI DATO’ SERI IR. SHAMSUDDIN BIN ABDUL KADIR",
+          "title": "P.S.M., S.P.C.M., DP.M.J., J.M.N., Hon.Fellow I.E.M., F.A.Sc, C.Eng., D.Sc.(Mgmt Tech) (Hon) (UTM), D.Eng. (Hon) (USM), DBA (Hon) (UKM) P Eng, MIE (MAL) M.I.E.E (UK), M.I.MAR.E (UK) Dip. E.E. (Brighton, UK)",
+          "image": {
+            "src": "/images/2022/10/tansridatoshamsuddin.jpg",
+            "alt": "YANG BERBAHAGIA TAN SRI DATO’ SERI IR. SHAMSUDDIN BIN ABDUL KADIR",
+            "width": 600,
+            "height": 400
+          }
+        }
+      ]
+    }
+  ]
+}

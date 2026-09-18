@@ -1,0 +1,12 @@
+{
+  "slug": "news",
+  "title": "News",
+  "description": "Latest news and announcements from the Senior Golfers' Society of Malaysia.",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "News"
+    }
+  ]
+}

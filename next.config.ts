@@ -1,0 +1,114 @@
+import type { NextConfig } from "next";
+
+/**
+ * Owned by the data-layer worker for now. A later worker extends this file
+ * with `headers()`/`redirects()` -- keep additions here additive and avoid
+ * removing/renaming existing keys.
+ *
+ * The infra worker (deploy/, redirects, headers) added `redirects()`,
+ * `headers()` and `output: "standalone"` below -- every key that existed
+ * before that pass is untouched.
+ */
+const nextConfig: NextConfig = {
+  // node-sqlite3-wasm ships a .wasm binary and its own VFS; it (and sharp,
+  // used at build time for image optimization) must run as real Node
+  // modules rather than being bundled into the server build.
+  serverExternalPackages: ["node-sqlite3-wasm", "sharp"],
+
+  compress: true,
+  poweredByHeader: false,
+  reactStrictMode: true,
+
+  images: {
+    formats: ["image/avif", "image/webp"],
+    // Capped to the real range of source assets: gallery/content photos top
+    // out at 1200px, and the largest site banners go to 2560px. Nothing on
+    // the site has a source wide enough to justify the previous widths up to
+    // 3840px, which only caused the optimizer to upscale a 1200px source at
+    // request time for large `sizes` matches (measured: the home page hero
+    // was requesting/re-encoding at widths up to 3840px against a 1200px
+    // source). Verified safe in isolation (Lighthouse 12, mobile + slow-4G +
+    // 4x CPU throttle): Performance/LCP unchanged from baseline.
+    deviceSizes: [360, 640, 828, 1080, 1200, 1920],
+    imageSizes: [96, 160, 256, 384],
+  },
+
+  experimental: {
+    optimizePackageImports: ["lucide-react"],
+  },
+
+  // Produces `.next/standalone` -- a self-contained server bundle with only
+  // the production node_modules it actually needs traced in. The Dockerfile
+  // copies just that output plus `public/` and `.next/static`, which keeps
+  // the runtime image small instead of shipping the whole workspace.
+  output: "standalone",
+
+  // Permanent redirects for the legacy Nicepage/WordPress URLs under
+  // `sgsm.com.my/prod/*` (contract §4). Order matters: Next.js matches these
+  // top-to-bottom, so every specific rule must come before the catch-all
+  // `/prod/:slug` -> `/:slug`, otherwise the catch-all would swallow them.
+  async redirects() {
+    return [
+      { source: "/prod/home", destination: "/", permanent: true },
+      { source: "/prod", destination: "/", permanent: true },
+      { source: "/prod/post-presidents", destination: "/past-presidents", permanent: true },
+      { source: "/prod/event-details", destination: "/working-committees", permanent: true },
+      { source: "/prod/eventcalendar", destination: "/events", permanent: true },
+      { source: "/prod/eventcalendar/:slug", destination: "/events/:slug", permanent: true },
+      { source: "/prod/event-gallery", destination: "/event-gallery", permanent: true },
+      { source: "/prod/news-details/:id", destination: "/news", permanent: true },
+      // Catch-all: any other legacy `/prod/<slug>` maps 1:1 onto the new
+      // top-level route of the same slug (e.g. /prod/about-us -> /about-us).
+      { source: "/prod/:slug", destination: "/:slug", permanent: true },
+    ];
+  },
+
+  async headers() {
+    const securityHeaders = [
+      { key: "X-Content-Type-Options", value: "nosniff" },
+      { key: "Referrer-Policy", value: "strict-origin-when-cross-origin" },
+      { key: "X-Frame-Options", value: "SAMEORIGIN" },
+      {
+        key: "Permissions-Policy",
+        value: "camera=(), microphone=(), geolocation=()",
+      },
+      // HSTS only takes effect when the browser receives it over an already-
+      // secure HTTPS connection (browsers ignore it on plain HTTP), so it is
+      // safe to send unconditionally here -- but it only *does* anything in
+      // production behind the TLS-terminating nginx/CDN layer in `deploy/`.
+      // Local `npm run dev`/`npm start` over http:// simply won't be affected.
+      {
+        key: "Strict-Transport-Security",
+        value: "max-age=63072000; includeSubDomains; preload",
+      },
+    ];
+
+    return [
+      {
+        // Sitewide security headers.
+        source: "/:path*",
+        headers: securityHeaders,
+      },
+      {
+        // Hashed build output -- filenames change on every deploy, so it is
+        // safe to cache forever.
+        source: "/_next/static/:path*",
+        headers: [{ key: "Cache-Control", value: "public, max-age=31536000, immutable" }],
+      },
+      {
+        // Optimized/original images under public/images -- content-addressed
+        // by path per the A.1 rule, never mutated in place.
+        source: "/images/:path*",
+        headers: [{ key: "Cache-Control", value: "public, max-age=31536000, immutable" }],
+      },
+      {
+        // Downloadable PDFs etc. under public/files -- same immutability
+        // guarantee (a changed document ships under a new filename).
+        source: "/files/:path*",
+        headers: [{ key: "Cache-Control", value: "public, max-age=31536000, immutable" }],
+      },
+    ];
+  },
+};
+
+export default nextConfig;

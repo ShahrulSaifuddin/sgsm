@@ -1,0 +1,16 @@
+{
+  "slug": "hotels-and-restaurants",
+  "title": "Hotels and Restaurants",
+  "description": "The page is under construction... We are preparing something exciting for you and will update this page at the appropriate time.",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "To be updated"
+    },
+    {
+      "type": "paragraph",
+      "html": "The page is under construction... We are preparing something exciting for you and will update this page at the appropriate time."
+    }
+  ]
+}

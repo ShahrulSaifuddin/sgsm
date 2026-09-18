@@ -1,0 +1,106 @@
+{
+  "title": "Partners and Sponsors",
+  "intro": "2022-2025",
+  "partners": [
+    {
+      "name": "Matrix Concepts Holdings Berhad",
+      "logo": {
+        "src": "/images/2024/02/matrixlogo-1.png",
+        "alt": "Matrix Concepts Holdings Berhad",
+        "width": 1128,
+        "height": 1074
+      },
+      "note": "Collaboration Partners"
+    },
+    {
+      "name": "Solarvest",
+      "logo": {
+        "src": "/images/2022/09/solarvest.png",
+        "alt": "Solarvest",
+        "width": 550,
+        "height": 127
+      },
+      "note": "Hole-In-One Sponsors"
+    },
+    {
+      "name": "Dato' Mohd Aini Hj Taib",
+      "logo": {
+        "src": "/images/2022/09/datomohdaini.png",
+        "alt": "Dato' Mohd Aini Hj Taib",
+        "width": 508,
+        "height": 617
+      },
+      "note": "Hole-In-One Sponsors"
+    },
+    {
+      "name": "Dato’ Hj Bahari Hj Abdullah",
+      "logo": {
+        "src": "/images/2022/09/vpresident.jpg",
+        "alt": "Dato’ Hj Bahari Hj Abdullah",
+        "width": 274,
+        "height": 366
+      },
+      "note": "Hole-In-One Sponsors"
+    },
+    {
+      "name": "Tan Sri Dato’ Seri Ir. Shamsuddin Bin Abdul Kadir",
+      "logo": {
+        "src": "/images/2022/10/tansridatoshamsuddin.jpg",
+        "alt": "Tan Sri Dato’ Seri Ir. Shamsuddin Bin Abdul Kadir",
+        "width": 600,
+        "height": 400
+      },
+      "note": "Hole-In-One Sponsors"
+    },
+    {
+      "name": "Tun Tan Sri Dato’ Seri (Dr) Md Raus Bin Sharif",
+      "logo": {
+        "src": "/images/2022/10/tunmdraussharif2.jpg",
+        "alt": "Tun Tan Sri Dato’ Seri (Dr) Md Raus Bin Sharif",
+        "width": 609,
+        "height": 767
+      },
+      "note": "Hole-In-One Sponsors"
+    },
+    {
+      "name": "Mazda",
+      "logo": {
+        "src": "/images/2022/11/mazda-logo.png",
+        "alt": "Mazda",
+        "width": 283,
+        "height": 300
+      },
+      "note": "Hole-In-One Sponsors"
+    },
+    {
+      "name": "AAA Greencell",
+      "logo": {
+        "src": "/images/2024/02/aaagreencell.png",
+        "alt": "AAA Greencell",
+        "width": 280,
+        "height": 70
+      },
+      "note": "Hole-In-One Sponsors"
+    },
+    {
+      "name": "Malaysia Airlines",
+      "logo": {
+        "src": "/images/2024/02/oip-removebg-preview.png",
+        "alt": "Malaysia Airlines",
+        "width": 474,
+        "height": 355
+      },
+      "note": "Hole-In-One Sponsors"
+    },
+    {
+      "name": "DSIA Farm & Riding Club",
+      "logo": {
+        "src": "/images/2024/02/whatsapp_image_2024-01-15_at_08.54.00-removebg-preview-1.png",
+        "alt": "DSIA Farm & Riding Club",
+        "width": 462,
+        "height": 314
+      },
+      "note": "Hole-In-One Sponsors"
+    }
+  ]
+}

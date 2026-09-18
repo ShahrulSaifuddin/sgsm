@@ -1,0 +1,2098 @@
+[
+  {
+    "id": 68,
+    "slug": "6th-indonesian-senior-open",
+    "title": "6th Indonesian Senior Open",
+    "startDate": "2022-10-25T08:00:00",
+    "endDate": "2022-10-26T17:00:00",
+    "allDay": false,
+    "cost": "",
+    "website": "",
+    "image": {
+      "src": "/images/2022/09/6th-indonesia-banner.png",
+      "alt": "6th Indonesian Senior Open",
+      "width": 400,
+      "height": 225
+    },
+    "venueSlug": "gunung-geulis-country-club",
+    "categories": [
+      "event"
+    ],
+    "excerpt": "Date : 25 & 26 October 2022 Venue : Gunung Geulis Country Club Entry Fee : IDR 4,000,000.00 Closing Date : 30 September 2022 Further information call : Ratu…",
+    "blocks": [
+      {
+        "type": "list",
+        "ordered": false,
+        "items": [
+          "Date : 25 &amp; 26 October 2022",
+          "Venue : Gunung Geulis Country Club",
+          "Entry Fee : IDR 4,000,000.00",
+          "Closing Date : 30 September 2022",
+          "Further information call : Ratu 0857 1798 3335 / Becky 0821 1295 3580"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 310,
+    "slug": "sabah-senior-amateur-open",
+    "title": "Sabah Senior Amateur Open",
+    "startDate": "2022-10-21T08:00:00",
+    "endDate": "2022-10-23T17:00:00",
+    "allDay": false,
+    "cost": "",
+    "website": "",
+    "image": {
+      "src": "/images/2022/09/sabah-senior-banner.png",
+      "alt": "Sabah Senior Amateur Open",
+      "width": 400,
+      "height": 225
+    },
+    "venueSlug": "sabah-golf-club-country-club",
+    "categories": [
+      "event"
+    ],
+    "excerpt": "Date : 21st & 22nd October 2022 Venue : Sabah Golf & Country Club Entry Fee : RM 330.00 (non SGCC member) / RM 280 (For SGCC member) Closing Date: 7th October…",
+    "blocks": [
+      {
+        "type": "list",
+        "ordered": false,
+        "items": [
+          "Date : 21<sup>st</sup> &amp; 22<sup>nd</sup> October 2022",
+          "Venue : Sabah Golf &amp; Country Club",
+          "Entry Fee : RM 330.00 (non SGCC member) / RM 280 (For SGCC member)",
+          "Closing Date: 7<sup>th</sup> October 2022",
+          "Further information call : 088-247 533"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 315,
+    "slug": "sgsm-malga-tournament",
+    "title": "SGSM – MALGA Tournament",
+    "startDate": "2022-10-27T08:00:00",
+    "endDate": "2022-10-27T15:00:00",
+    "allDay": false,
+    "cost": "",
+    "website": "",
+    "image": {
+      "src": "/images/2022/10/sgsm-malga-tb.png",
+      "alt": "SGSM – MALGA Tournament",
+      "width": 400,
+      "height": 225
+    },
+    "venueSlug": "impian-golf-country-club",
+    "categories": [
+      "event"
+    ],
+    "excerpt": "Date: Thursday, 27th October 2022 Venue: Impian Golf & Country Club, Kajang, Selangor Entrance Fee : RM 200 (Member), RM 260 (Member Guest), RM 320 (Guest)…",
+    "blocks": [
+      {
+        "type": "list",
+        "ordered": false,
+        "items": [
+          "Date: Thursday, 27<sup>th</sup> October 2022",
+          "Venue: Impian Golf &amp; Country Club, Kajang, Selangor",
+          "Entrance Fee : RM 200 (Member), RM 260 (Member Guest), RM 320 (Guest)",
+          "Closing date for registration : Friday, 21 October 2022",
+          "Closing date for payment : Monday, 24 October 2022"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 543,
+    "slug": "32nd-singapore-open-senior-amateur-championship-2022",
+    "title": "32nd Singapore Open Senior Amateur Championship 2022",
+    "startDate": "2022-11-14T08:00:00",
+    "endDate": "2022-11-17T17:00:00",
+    "allDay": false,
+    "cost": "",
+    "website": "",
+    "image": {
+      "src": "/images/2022/09/sg-banner-tb.png",
+      "alt": "32nd Singapore Open Senior Amateur Championship 2022",
+      "width": 400,
+      "height": 225
+    },
+    "venueSlug": "singapore-island-country-club-island-course",
+    "categories": [
+      "event"
+    ],
+    "excerpt": "Date : 14 – 17 November 2022 Venue : Singapore Island Country Club Entry Fee : S$350.00 Closing Date : 30 September 2022 Further information call : Mr Kian Hui…",
+    "blocks": [
+      {
+        "type": "list",
+        "ordered": false,
+        "items": [
+          "Date : 14 – 17 November 2022",
+          "Venue : Singapore Island Country Club",
+          "Entry Fee : S$350.00",
+          "Closing Date : 30 September 2022",
+          "Further information call : Mr Kian Hui 02-6755 5976"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 1138,
+    "slug": "annual-championship-2022",
+    "title": "Annual Championship 2022",
+    "startDate": "2022-11-15T08:00:00",
+    "endDate": "2022-11-16T15:00:00",
+    "allDay": false,
+    "cost": "",
+    "website": "",
+    "image": {
+      "src": "/images/2022/10/annual-22-tb.png",
+      "alt": "Annual Championship 2022",
+      "width": 400,
+      "height": 225
+    },
+    "venueSlug": "staffield-golf-country-resort",
+    "categories": [
+      "event"
+    ],
+    "excerpt": "Date: 15th November – 16th November 2022 Venue: Staffield Golf Country Resort, Mantin, Negeri Sembilan (Western & Southern course) Mode of Play : Stroke play…",
+    "blocks": [
+      {
+        "type": "list",
+        "ordered": false,
+        "items": [
+          "Date: 15th November – 16th November 2022",
+          "Venue: Staffield Golf Country Resort, Mantin, Negeri Sembilan (Western &amp; Southern course)",
+          "Mode of Play : Stroke play",
+          "Entry Fee: RM 380.00 per person. (inclusive Green Fee, Buggy &amp; Caddy Sharing, Breakfast &amp; Lunch)",
+          "Closing date for registration : 9 Nov 2022 and Closing date for payment : 13 Nov 2022",
+          "Total Goodies Bag worth of RM 350.00",
+          "Total Prizes worth of RM 30,000",
+          "Total Lucky Draw worth of RM 6,000 (3 Grand Lucky Draw and 20 other prizes"
+        ]
+      },
+      {
+        "type": "paragraph",
+        "html": "<strong>Hole in One prizes</strong>"
+      },
+      {
+        "type": "list",
+        "ordered": true,
+        "items": [
+          "Mazda 2 sponsored by Prima Merdu Sdn Bhd",
+          "Solar Technology sponsored by Solarvest Sdn Bhd (Mr Kenny Tan)",
+          "Lembu Brahman or Cash RM 4,000 sponsored by Dato’ Hj Bahari Hj Abdullah",
+          "Cash RM 2,500 sponsored by Dato’ Hj Aini Mohd Taib"
+        ]
+      },
+      {
+        "type": "paragraph",
+        "html": "<strong>Categories: </strong>"
+      },
+      {
+        "type": "paragraph",
+        "html": "<strong>Senior (age 55 to 66)</strong>"
+      },
+      {
+        "type": "list",
+        "ordered": false,
+        "items": [
+          "Overall Gross",
+          "Overall Net",
+          "Daily Best Gross",
+          "Daily Best Nett"
+        ]
+      },
+      {
+        "type": "paragraph",
+        "html": "<strong>Super Senior (age 67 to 78)</strong>"
+      },
+      {
+        "type": "list",
+        "ordered": false,
+        "items": [
+          "Overall Net",
+          "Daily Best Nett"
+        ]
+      },
+      {
+        "type": "paragraph",
+        "html": "<strong>Golden Senior (age 79 and above)</strong>"
+      },
+      {
+        "type": "list",
+        "ordered": false,
+        "items": [
+          "Overall Net",
+          "Daily Best Nett"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 1425,
+    "slug": "8th-johor-senior-amateur-open-men-2022",
+    "title": "8th Johor Senior Amateur Open (Men) 2022",
+    "startDate": "2022-11-06T08:00:00",
+    "endDate": "2022-11-06T15:00:00",
+    "allDay": false,
+    "cost": "",
+    "website": "",
+    "image": {
+      "src": "/images/2022/10/johor-senior-banner.png",
+      "alt": "8th Johor Senior Amateur Open (Men) 2022",
+      "width": 400,
+      "height": 225
+    },
+    "venueSlug": "horizon-hills-golf-country-club",
+    "categories": [
+      "event"
+    ],
+    "excerpt": "Date : 6 November 2022 (Tee Off : 01:30 PM Shot Gun Start) Venue : Horizon Hills Golf & Country Club Entry Fee : RM 400.00 Further Information call : Mr Fadil…",
+    "blocks": [
+      {
+        "type": "list",
+        "ordered": false,
+        "items": [
+          "Date : 6 November 2022 (Tee Off : 01:30 PM Shot Gun Start)",
+          "Venue : Horizon Hills Golf &amp; Country Club",
+          "Entry Fee : RM 400.00",
+          "Further Information call : Mr Fadil 019-771 5389 / Mr CC Boo 012-720 8888"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 1628,
+    "slug": "sgsm-president-trophy-2023",
+    "title": "SGSM President Trophy 2023",
+    "startDate": "2023-01-18T07:30:00",
+    "endDate": "2023-01-18T17:00:00",
+    "allDay": false,
+    "cost": "",
+    "website": "",
+    "image": {
+      "src": "/images/2022/12/untitled-design2.png",
+      "alt": "SGSM President Trophy 2023",
+      "width": 400,
+      "height": 225
+    },
+    "venueSlug": "klgcc",
+    "categories": [
+      "event"
+    ],
+    "excerpt": "Date : Wednesday, 18 January 2022 (Tee Off : 07:45 AM) Venue : Kuala Lumpur Golf & Country Club. Prizes: Overall Gross / Overall Nett / Overall Stableford /…",
+    "blocks": [
+      {
+        "type": "paragraph",
+        "html": "Date : Wednesday, 18 January 2022 (Tee Off : 07:45 AM)"
+      },
+      {
+        "type": "paragraph",
+        "html": "Venue : Kuala Lumpur Golf &amp; Country Club."
+      },
+      {
+        "type": "paragraph",
+        "html": "Prizes: Overall Gross / Overall Nett / Overall Stableford / Rookies (New Member joining in year 2022)"
+      },
+      {
+        "type": "paragraph",
+        "html": "Official Registration through WhatApp Group Official 1 &amp; 2 start on 28 December 2022."
+      }
+    ]
+  },
+  {
+    "id": 1639,
+    "slug": "37th-asean-senior-amateur-golf-championship-2023",
+    "title": "37th ASEAN Senior Amateur Golf Championship 2023",
+    "startDate": "2023-02-27T08:00:00",
+    "endDate": "2023-03-01T17:00:00",
+    "allDay": false,
+    "cost": "",
+    "website": "",
+    "image": {
+      "src": "/images/2022/12/untitled-design3.png",
+      "alt": "37th ASEAN Senior Amateur Golf Championship 2023",
+      "width": 400,
+      "height": 225
+    },
+    "venueSlug": "singapore-island-country-club-island-course",
+    "categories": [
+      "event"
+    ],
+    "excerpt": "Date : 27th February to 1st March 2023 Venue : Singapore Island Country Club. Official Registration through WhatApp Group Official 1 & 2 More details will be…",
+    "blocks": [
+      {
+        "type": "paragraph",
+        "html": "Date : 27<sup>th</sup> February to 1<sup>st</sup> March 2023"
+      },
+      {
+        "type": "paragraph",
+        "html": "Venue : Singapore Island Country Club."
+      },
+      {
+        "type": "paragraph",
+        "html": "Official Registration through WhatApp Group Official 1 &amp; 2"
+      },
+      {
+        "type": "paragraph",
+        "html": "More details will be uploaded soon."
+      }
+    ]
+  },
+  {
+    "id": 1641,
+    "slug": "sgsm-wpkl-chapter-inaugural-golf-challenge-2022",
+    "title": "SGSM WPKL Chapter Inaugural Golf Challenge 2022",
+    "startDate": "2022-12-27T08:00:00",
+    "endDate": "2022-12-27T17:00:00",
+    "allDay": false,
+    "cost": "",
+    "website": "",
+    "image": {
+      "src": "/images/2022/12/untitled-design1.png",
+      "alt": "SGSM WPKL Chapter Inaugural Golf Challenge 2022",
+      "width": 400,
+      "height": 225
+    },
+    "venueSlug": "impian-golf-country-club",
+    "categories": [
+      "event"
+    ],
+    "excerpt": "Date : Tuesday, 27 December 2022 (Tee Off : 07:45 AM) Venue : Impian Golf & Country Club, Kajang, Selangor Entry Fee : RM 200.00 (non Impian GCC Member) / RM…",
+    "blocks": [
+      {
+        "type": "paragraph",
+        "html": "Date : Tuesday, 27 December 2022 (Tee Off : 07:45 AM)"
+      },
+      {
+        "type": "paragraph",
+        "html": "Venue : Impian Golf &amp; Country Club, Kajang, Selangor"
+      },
+      {
+        "type": "paragraph",
+        "html": "Entry Fee : RM 200.00 (non Impian GCC Member) / RM 150.00 (Member Impian GCC)"
+      },
+      {
+        "type": "paragraph",
+        "html": "Closing date for registration &amp; payment: Thursday, 22 December 2022"
+      },
+      {
+        "type": "paragraph",
+        "html": "Registration through WhatApp Group Official 1 &amp; 2"
+      }
+    ]
+  },
+  {
+    "id": 1707,
+    "slug": "kasih-sayang-seriemas-golf-challenge-2023",
+    "title": "Kasih Sayang Seriemas Golf Challenge 2023",
+    "startDate": "2023-03-15T08:00:00",
+    "endDate": "2023-03-15T17:00:00",
+    "allDay": false,
+    "cost": "",
+    "website": "",
+    "image": {
+      "src": "/images/2023/06/banner-kasih-sayang-e1686200275396.jpeg",
+      "alt": "Kasih Sayang Seriemas Golf Challenge 2023",
+      "width": 400,
+      "height": 200
+    },
+    "venueSlug": "kota-seriemas-golf-country-club",
+    "categories": [
+      "event"
+    ],
+    "excerpt": "Date : 15 MAC 2023 (Wednesday) Venue: Kota Seriesmas Golf & Country Club. Toff : 7:45am (shotgun) Tbox : WHITE MOP: STROKEPLAY Category: Senior 55-64, Super…",
+    "blocks": [
+      {
+        "type": "paragraph",
+        "html": "Date : 15 MAC 2023 (Wednesday)"
+      },
+      {
+        "type": "paragraph",
+        "html": "Venue: Kota Seriesmas Golf &amp; Country Club."
+      },
+      {
+        "type": "paragraph",
+        "html": "Toff : 7:45am (shotgun)"
+      },
+      {
+        "type": "paragraph",
+        "html": "Tbox : WHITE"
+      },
+      {
+        "type": "paragraph",
+        "html": "MOP: STROKEPLAY"
+      },
+      {
+        "type": "paragraph",
+        "html": "Category: Senior 55-64, Super Senior 65-74, Golden Senior 75+."
+      },
+      {
+        "type": "paragraph",
+        "html": "Max.Pax : 120 pax FCFS basis."
+      },
+      {
+        "type": "paragraph",
+        "html": "Entrance Fee:-"
+      },
+      {
+        "type": "paragraph",
+        "html": "RM200 (incl. green fee, Sharing buggy /Caddy, insurance, B’fast, lunch, prizes &amp; lucky draw)"
+      },
+      {
+        "type": "paragraph",
+        "html": "<strong>Closing date</strong> for registration &amp; payment:"
+      },
+      {
+        "type": "paragraph",
+        "html": "<strong>Friday, 10 Mac 2023.</strong>"
+      },
+      {
+        "type": "paragraph",
+        "html": "To register just type ‘Yes’ SGSM membership no’ and send through this WAG."
+      },
+      {
+        "type": "paragraph",
+        "html": "Kindly proceed with the payment of <strong>RM200 to SGSM new Maybank (TTDI) account no. 5648 0167 0383 Account name: Persatuan Senior Golfers Malaysia.</strong>"
+      }
+    ]
+  },
+  {
+    "id": 1713,
+    "slug": "sgsm-aidil-fitri-golf-challenge-2023",
+    "title": "SGSM Aidil Fitri Golf Challenge 2023",
+    "startDate": "2023-05-17T08:00:00",
+    "endDate": "2023-05-17T17:00:00",
+    "allDay": false,
+    "cost": "",
+    "website": "",
+    "image": {
+      "src": "/images/2023/06/banner-aidil-fitri-golf-e1686200910315.jpeg",
+      "alt": "SGSM Aidil Fitri Golf Challenge 2023",
+      "width": 400,
+      "height": 133
+    },
+    "venueSlug": "impian-golf-country-club",
+    "categories": [
+      "event"
+    ],
+    "excerpt": "Date : 17 MAY 2023 (Wednesday) Venue: Impian Golf & Country Club. Toff : 7:45am (shotgun) Tbox : WHITE MOP: STROKEPLAY Category: Senior 55-64, Super Senior…",
+    "blocks": [
+      {
+        "type": "paragraph",
+        "html": "Date : 17 MAY 2023 (Wednesday)"
+      },
+      {
+        "type": "paragraph",
+        "html": "Venue: Impian Golf &amp; Country Club."
+      },
+      {
+        "type": "paragraph",
+        "html": "Toff : 7:45am (shotgun)"
+      },
+      {
+        "type": "paragraph",
+        "html": "Tbox : WHITE"
+      },
+      {
+        "type": "paragraph",
+        "html": "MOP: STROKEPLAY"
+      },
+      {
+        "type": "paragraph",
+        "html": "Category: Senior 55-64, Super Senior 65-74, Golden Senior 75+."
+      },
+      {
+        "type": "paragraph",
+        "html": "Max.Pax : 120 pax FCFS basis."
+      },
+      {
+        "type": "paragraph",
+        "html": "Entrance Fee:-"
+      },
+      {
+        "type": "paragraph",
+        "html": "RM250 Non Impian Member"
+      },
+      {
+        "type": "paragraph",
+        "html": "RM175 Impian Member"
+      },
+      {
+        "type": "paragraph",
+        "html": "(incl. green fee, Sharing buggy /Caddy, insurance, B’fast, lunch, prizes &amp; lucky draw)"
+      },
+      {
+        "type": "paragraph",
+        "html": "<strong>Closing date</strong> for registration &amp; payment:"
+      },
+      {
+        "type": "paragraph",
+        "html": "<strong>Friday, 12 May 2023.</strong>"
+      },
+      {
+        "type": "paragraph",
+        "html": "To register just type ‘Yes’ SGSM membership no’ and send through this WAG."
+      },
+      {
+        "type": "paragraph",
+        "html": "Kindly proceed with the payment of <strong>RM250/RM175 to SGSM new Maybank (TTDI) account no. 5648 0167 0383 Account name: Persatuan Senior Golfers Malaysia.</strong>"
+      }
+    ]
+  },
+  {
+    "id": 1716,
+    "slug": "anniversary-trophy-2023-89th-annual-general-meeting-sgsm",
+    "title": "Anniversary Trophy 2023 & 89th Annual General Meeting SGSM",
+    "startDate": "2023-06-22T08:00:00",
+    "endDate": "2023-06-22T17:00:00",
+    "allDay": false,
+    "cost": "",
+    "website": "",
+    "image": {
+      "src": "/images/2023/06/banner-anniversary-agm-resize.jpg",
+      "alt": "Anniversary Trophy 2023 & 89th Annual General Meeting SGSM",
+      "width": 606,
+      "height": 341
+    },
+    "venueSlug": "the-mines-resort-golf-club",
+    "categories": [
+      "event"
+    ],
+    "excerpt": "Date : 22nd June 2023 Day : Thursday Toff : 7.45am Tbox : White Fees :RM400 inc Green Buggy Caddie Tips (caddie) Bfast Lunch Prizes & LDraw. Fees for The Mines…",
+    "blocks": [
+      {
+        "type": "paragraph",
+        "html": "Date : 22nd June 2023"
+      },
+      {
+        "type": "paragraph",
+        "html": "Day : Thursday"
+      },
+      {
+        "type": "paragraph",
+        "html": "Toff : 7.45am"
+      },
+      {
+        "type": "paragraph",
+        "html": "Tbox : White"
+      },
+      {
+        "type": "paragraph",
+        "html": "Fees :RM400 inc"
+      },
+      {
+        "type": "list",
+        "ordered": true,
+        "items": [
+          "Green",
+          "Buggy",
+          "Caddie",
+          "Tips (caddie)",
+          "Bfast",
+          "Lunch",
+          "Prizes &amp; LDraw."
+        ]
+      },
+      {
+        "type": "paragraph",
+        "html": "Fees for The Mines member is RM300."
+      },
+      {
+        "type": "paragraph",
+        "html": "To register just type ‘YES’ ‘SGSM Membership Number’ and send through this WAG. Pls register early. FCFS basis."
+      },
+      {
+        "type": "paragraph",
+        "html": "Full payment MUST be made on or before 8 June 23 to SGSM Maybank account 5648 0167 0383"
+      },
+      {
+        "type": "paragraph",
+        "html": "AGM will commence after lunch @ 2pm."
+      }
+    ]
+  },
+  {
+    "id": 1718,
+    "slug": "malindo-cup-2023",
+    "title": "Malindo Cup 2023",
+    "startDate": "2023-05-01T08:00:00",
+    "endDate": "2023-05-04T17:00:00",
+    "allDay": false,
+    "cost": "",
+    "website": "",
+    "image": {
+      "src": "/images/2023/06/banner-malindo-cup-2023.jpg",
+      "alt": "Malindo Cup 2023",
+      "width": 400,
+      "height": 255
+    },
+    "venueSlug": "rainbow-hills-golf-club-bogor-jawa-barat",
+    "categories": [
+      "event"
+    ],
+    "excerpt": "Date : 1 May – 4 May 2023 Tournament venue at Rainbow Hills Golf & Country Club Breakfast & Lunch at Golf Club provided by Organiser. Dinner & Gala Dinner…",
+    "blocks": [
+      {
+        "type": "paragraph",
+        "html": "Date : 1 May – 4 May 2023"
+      },
+      {
+        "type": "paragraph",
+        "html": "Tournament venue at <strong>Rainbow Hills Golf &amp; Country Club </strong>"
+      },
+      {
+        "type": "paragraph",
+        "html": "<strong>Breakfast </strong>&amp; <strong>Lunch</strong> at Golf Club provided by Organiser. <strong>Dinner</strong> &amp; <strong>Gala Dinner</strong> provided by SGSM."
+      },
+      {
+        "type": "paragraph",
+        "html": "<strong>Official Hotel; </strong>Swiss Bellinn Bogor Hotel."
+      },
+      {
+        "type": "paragraph",
+        "html": "Jl. Pajajaran Indah V,"
+      },
+      {
+        "type": "paragraph",
+        "html": "01/RW 14, Baranangsiang, Kec. Bogor"
+      },
+      {
+        "type": "paragraph",
+        "html": "Tim, Kota Bogor, Jawa Barat 16143"
+      },
+      {
+        "type": "paragraph",
+        "html": "<strong>Official Golf Course; </strong>"
+      },
+      {
+        "type": "paragraph",
+        "html": "Rainbow Hills Golf Club"
+      },
+      {
+        "type": "paragraph",
+        "html": "Jl. Padang Golf Bukit Pelangi"
+      },
+      {
+        "type": "paragraph",
+        "html": "Desa Cijayanti – Babakan Madang"
+      },
+      {
+        "type": "paragraph",
+        "html": "Bogor – Jawa Barat 16720"
+      },
+      {
+        "type": "paragraph",
+        "html": "<strong>Golfing attire</strong>."
+      },
+      {
+        "type": "paragraph",
+        "html": "SGSM Day 1 – <strong>White Tshirt (provided by SGSM), black pant, white shoe, white belt &amp; white cap</strong>."
+      },
+      {
+        "type": "paragraph",
+        "html": "SGSM Day 2 –<strong> Blue Tshirt (provided by SGSM), dark blue/black pant, white shoe, white belt &amp; white cap</strong>."
+      },
+      {
+        "type": "paragraph",
+        "html": "MALGA Day 1<strong> – Purple Tshirt and black bottom. </strong>"
+      },
+      {
+        "type": "paragraph",
+        "html": "MALGA Day 2<strong> – Blue Tshirt and dark blue/black bottom.</strong>"
+      },
+      {
+        "type": "paragraph",
+        "html": "<strong> </strong>"
+      },
+      {
+        "type": "paragraph",
+        "html": "<strong>Dinner (Tuesday, 2<sup>nd</sup> May 2023) </strong>at Gili Gili Restaurant (Sundanese Restaurant)"
+      },
+      {
+        "type": "paragraph",
+        "html": "SGSM &amp; MALGA Dress code – Smart Casual"
+      },
+      {
+        "type": "paragraph",
+        "html": "<strong>Gala Dinner (Wednesday, 3<sup>rd</sup> May 2023)</strong> at Bogor Raya Golf Club"
+      },
+      {
+        "type": "paragraph",
+        "html": "SGSM – Wear Batik with dark pants and black shoes"
+      },
+      {
+        "type": "paragraph",
+        "html": "MALGA – Smart Casual"
+      },
+      {
+        "type": "paragraph",
+        "html": "<strong>Chief-de-mission</strong>: Dato’ Shamsudin Ismail, President of SGSM"
+      },
+      {
+        "type": "paragraph",
+        "html": "<strong>PIC- Field &amp; Technical Arrangement: </strong>"
+      },
+      {
+        "type": "paragraph",
+        "html": "Dato’ Hj Bahari Hj Abdullah (+6012-618 0500)"
+      },
+      {
+        "type": "paragraph",
+        "html": "Abdul Razak Jamaludin (+6019-358 2255)"
+      },
+      {
+        "type": "paragraph",
+        "html": "Dato’ Razain Abdul Razab (+6011- 3913 1311)"
+      },
+      {
+        "type": "paragraph",
+        "html": "Jeffery Foo (+6012-208 9163)"
+      },
+      {
+        "type": "paragraph",
+        "html": "<strong>PIC – Hotel &amp; Ground Arrangement</strong>:"
+      },
+      {
+        "type": "paragraph",
+        "html": "Dato’ Sri Mohd Sabri Mohd Nadzir (+6013-337 7666)"
+      },
+      {
+        "type": "paragraph",
+        "html": "Mohd Lilansah Idris (+6019-289 0364)"
+      }
+    ]
+  },
+  {
+    "id": 1724,
+    "slug": "merdeka-golf-challenge-2023-jakarta",
+    "title": "Merdeka Golf Challenge 2023 @ Jakarta",
+    "startDate": "2023-08-30T08:00:00",
+    "endDate": "2023-09-01T17:00:00",
+    "allDay": false,
+    "cost": "",
+    "website": "",
+    "image": {
+      "src": "/images/2023/07/banner-merdeka-golf-challenge-2023-e1690446021376.jpeg",
+      "alt": "Merdeka Golf Challenge 2023 @ Jakarta",
+      "width": 300,
+      "height": 169
+    },
+    "venueSlug": "imperial-club-golf",
+    "categories": [
+      "event"
+    ],
+    "excerpt": "Date : 30th Aug – 1st Sep 2023 Venue : Jakarta, Indonesia Day 1 – Imperial Golf Club Day 2 – Sendayu Golf Club Day 3 – Damai Indah PIK Interested to join…",
+    "blocks": [
+      {
+        "type": "paragraph",
+        "html": "Date : 30th Aug – 1st Sep 2023"
+      },
+      {
+        "type": "paragraph",
+        "html": "Venue : Jakarta, Indonesia"
+      },
+      {
+        "type": "paragraph",
+        "html": "Day 1 – Imperial Golf Club"
+      },
+      {
+        "type": "paragraph",
+        "html": "Day 2 – Sendayu Golf Club"
+      },
+      {
+        "type": "paragraph",
+        "html": "Day 3 – Damai Indah PIK"
+      },
+      {
+        "type": "paragraph",
+        "html": "Interested to join whatsapp 011-6335 8797"
+      }
+    ]
+  },
+  {
+    "id": 1757,
+    "slug": "monthly-medal-july-2023",
+    "title": "Monthly Medal July 2023",
+    "startDate": "2023-07-26T07:30:00",
+    "endDate": "2023-07-26T17:00:00",
+    "allDay": false,
+    "cost": "",
+    "website": "",
+    "image": {
+      "src": "/images/2023/07/monthly-medal-july-2023-resize-1.jpg",
+      "alt": "Monthly Medal July 2023",
+      "width": 1640,
+      "height": 664
+    },
+    "venueSlug": "kelab-golf-negara-subang-kgns",
+    "categories": [
+      "event"
+    ],
+    "excerpt": "Date : 26th July 2023 (Wednesday) Venue : Kelab Golf Negara Subang (KGNS) Tee Off : 7.30am (Shotgun start) More info : Whatsapp 011-6335 8797",
+    "blocks": [
+      {
+        "type": "paragraph",
+        "html": "Date : 26th July 2023 (Wednesday)"
+      },
+      {
+        "type": "paragraph",
+        "html": "Venue : Kelab Golf Negara Subang (KGNS)"
+      },
+      {
+        "type": "paragraph",
+        "html": "Tee Off : 7.30am (Shotgun start)"
+      },
+      {
+        "type": "paragraph",
+        "html": "More info : Whatsapp 011-6335 8797"
+      }
+    ]
+  },
+  {
+    "id": 1803,
+    "slug": "august-monthly-medal-2023",
+    "title": "August Monthly Medal 2023",
+    "startDate": "2023-08-16T08:00:00",
+    "endDate": "2023-08-16T17:00:00",
+    "allDay": false,
+    "cost": "",
+    "website": "",
+    "image": {
+      "src": "/images/2023/07/august-monthly-medal-2023-banner-v2-scaled-e1690532802458.jpg",
+      "alt": "August Monthly Medal 2023",
+      "width": 1280,
+      "height": 640
+    },
+    "venueSlug": "templer-park-country-club-tpcc",
+    "categories": [
+      "event"
+    ],
+    "excerpt": "Date: 16th August 2023 Day : Wednesday Venue : Templer Park Country Club, Rawang Category A : 55 until 64 years old (Tee off 7.45am) Category B : 65 years old…",
+    "blocks": [
+      {
+        "type": "paragraph",
+        "html": "Date: 16th August 2023"
+      },
+      {
+        "type": "paragraph",
+        "html": "Day : Wednesday"
+      },
+      {
+        "type": "paragraph",
+        "html": "Venue : Templer Park Country Club, Rawang"
+      },
+      {
+        "type": "paragraph",
+        "html": "Category A : 55 until 64 years old (Tee off 7.45am)"
+      },
+      {
+        "type": "paragraph",
+        "html": "Category B : 65 years old and above (Tee off 1.45pm)"
+      },
+      {
+        "type": "paragraph",
+        "html": "Mode of Play : Stableford"
+      },
+      {
+        "type": "paragraph",
+        "html": "Interested please wasap SGSM admin"
+      }
+    ]
+  },
+  {
+    "id": 1827,
+    "slug": "27th-sarawak-senior-amatuer-open-golf-championship-kelab-golf-sarawak",
+    "title": "27th Sarawak Senior Amatuer Open Golf Championship @ Kelab Golf Sarawak",
+    "startDate": "2023-09-12T08:00:00",
+    "endDate": "2023-09-13T17:00:00",
+    "allDay": false,
+    "cost": "",
+    "website": "",
+    "image": {
+      "src": "/images/2023/08/27th-sarawak-senior-amateur-open-v2.jpg",
+      "alt": "27th Sarawak Senior Amatuer Open Golf Championship @ Kelab Golf Sarawak",
+      "width": 1920,
+      "height": 2560
+    },
+    "venueSlug": "kelab-golf-sarawak",
+    "categories": [
+      "event"
+    ],
+    "excerpt": "Date : 12 & 13 Sep 2023 Venue : Kelab Golf Sarawak Limited to 40 pax. Interested please call our SGSM Admin for more info. TQ",
+    "blocks": [
+      {
+        "type": "paragraph",
+        "html": "Date : 12 &amp; 13 Sep 2023"
+      },
+      {
+        "type": "paragraph",
+        "html": "Venue : Kelab Golf Sarawak"
+      },
+      {
+        "type": "paragraph",
+        "html": "Limited to 40 pax."
+      },
+      {
+        "type": "paragraph",
+        "html": "Interested please call our SGSM Admin for more info. TQ"
+      }
+    ]
+  },
+  {
+    "id": 1851,
+    "slug": "september-monthly-medal-2023-kelab-golf-seri-selangor",
+    "title": "September Monthly Medal 2023 @ Kelab Golf Seri Selangor",
+    "startDate": "2023-09-19T08:00:00",
+    "endDate": "2023-09-19T17:00:00",
+    "allDay": false,
+    "cost": "",
+    "website": "",
+    "image": {
+      "src": "/images/2023/09/sept-mm-2023-resize.png",
+      "alt": "September Monthly Medal 2023 @ Kelab Golf Seri Selangor",
+      "width": 400,
+      "height": 225
+    },
+    "venueSlug": "kelab-golf-seri-selangor-kgss",
+    "categories": [
+      "event"
+    ],
+    "excerpt": "Date : 19th September 2023 Venue : Kelab Golf Seri Selangor Tee off : 7.45 am Interested please call our SGSM Admin for more info. TQ",
+    "blocks": [
+      {
+        "type": "paragraph",
+        "html": "Date : 19th September 2023"
+      },
+      {
+        "type": "paragraph",
+        "html": "Venue : Kelab Golf Seri Selangor"
+      },
+      {
+        "type": "paragraph",
+        "html": "Tee off : 7.45 am"
+      },
+      {
+        "type": "paragraph",
+        "html": "Interested please call our SGSM Admin for more info. TQ"
+      }
+    ]
+  },
+  {
+    "id": 1861,
+    "slug": "sgsm-interstate-team-golf-championship-2023-palm-resort-golf-country-club",
+    "title": "SGSM Interstate Team Golf Championship 2023 @ Palm Resort Golf & Country Club",
+    "startDate": "2023-10-11T08:00:00",
+    "endDate": "2023-10-12T17:00:00",
+    "allDay": false,
+    "cost": "",
+    "website": "",
+    "image": {
+      "src": "/images/2023/10/itgc-2023.jpg",
+      "alt": "SGSM Interstate Team Golf Championship 2023 @ Palm Resort Golf & Country Club",
+      "width": 400,
+      "height": 255
+    },
+    "venueSlug": "palm-resort-golf-country-club",
+    "categories": [
+      "event"
+    ],
+    "excerpt": "Date : 11st & 12th October 2023 Venue : Palm Resort Golf & Country Club Tee off : 8.00 am (Shotgun Start)",
+    "blocks": [
+      {
+        "type": "paragraph",
+        "html": "Date : 11st &amp; 12th October 2023"
+      },
+      {
+        "type": "paragraph",
+        "html": "Venue : Palm Resort Golf &amp; Country Club"
+      },
+      {
+        "type": "paragraph",
+        "html": "Tee off : 8.00 am (Shotgun Start)"
+      }
+    ]
+  },
+  {
+    "id": 1875,
+    "slug": "annual-championship-sgsm-2023-templer-park-golf-country-club",
+    "title": "Annual Championship SGSM 2023 @ Templer Park Golf & Country Club",
+    "startDate": "2023-11-21T08:00:00",
+    "endDate": "2023-11-22T14:00:00",
+    "allDay": false,
+    "cost": "",
+    "website": "",
+    "image": {
+      "src": "/images/2023/11/annual-champ-2023-resize-tpgcc.jpg",
+      "alt": "Annual Championship SGSM 2023 @ Templer Park Golf & Country Club",
+      "width": 400,
+      "height": 225
+    },
+    "venueSlug": "templer-park-country-club-tpcc",
+    "categories": [
+      "event"
+    ],
+    "excerpt": "Date : 21th & 22th November Venue : Templer Park Golf & Country Club & Kelab Golf Seri Selangor Tee off : 7.45am",
+    "blocks": [
+      {
+        "type": "paragraph",
+        "html": "Date : 21th &amp; 22th November"
+      },
+      {
+        "type": "paragraph",
+        "html": "Venue : Templer Park Golf &amp; Country Club &amp; Kelab Golf Seri Selangor"
+      },
+      {
+        "type": "paragraph",
+        "html": "Tee off : 7.45am"
+      }
+    ]
+  },
+  {
+    "id": 1881,
+    "slug": "annual-championship-sgsm-2023-kelab-golf-seri-selangor",
+    "title": "Annual Championship SGSM 2023 @ Kelab Golf Seri Selangor",
+    "startDate": "2023-11-21T08:00:00",
+    "endDate": "2023-11-22T14:00:00",
+    "allDay": false,
+    "cost": "",
+    "website": "",
+    "image": {
+      "src": "/images/2023/11/annual-champ-2023-resize-kgss.jpg",
+      "alt": "Annual Championship SGSM 2023 @ Kelab Golf Seri Selangor",
+      "width": 400,
+      "height": 225
+    },
+    "venueSlug": "kelab-golf-seri-selangor-kgss",
+    "categories": [
+      "event"
+    ],
+    "excerpt": "Date : 21th & 22th November 2023 Venue : Kelab Golf Seri Selangor & Templer Park Golf & Country Club Tee off : 7.45am",
+    "blocks": [
+      {
+        "type": "paragraph",
+        "html": "Date : 21th &amp; 22th November 2023"
+      },
+      {
+        "type": "paragraph",
+        "html": "Venue : Kelab Golf Seri Selangor &amp; Templer Park Golf &amp; Country Club"
+      },
+      {
+        "type": "paragraph",
+        "html": "Tee off : 7.45am"
+      }
+    ]
+  },
+  {
+    "id": 1910,
+    "slug": "presidents-trophy-2024-the-mines-resort-golf-club",
+    "title": "President’s Trophy 2024 @ The Mines Resort & Golf Club",
+    "startDate": "2024-01-18T08:00:00",
+    "endDate": "2024-01-18T17:00:00",
+    "allDay": false,
+    "cost": "",
+    "website": "",
+    "image": {
+      "src": "/images/2024/01/pt-2024-resize.jpg",
+      "alt": "President’s Trophy 2024 @ The Mines Resort & Golf Club",
+      "width": 400,
+      "height": 150
+    },
+    "venueSlug": "the-mines-resort-golf-club",
+    "categories": [
+      "event"
+    ],
+    "excerpt": "Date: 18th January 2024 (Thursday) Venue: The Mines Resort & Golf Club Tee off: 7.45am",
+    "blocks": [
+      {
+        "type": "paragraph",
+        "html": "Date: 18th January 2024 (Thursday)"
+      },
+      {
+        "type": "paragraph",
+        "html": "Venue: The Mines Resort &amp; Golf Club"
+      },
+      {
+        "type": "paragraph",
+        "html": "Tee off: 7.45am"
+      }
+    ]
+  },
+  {
+    "id": 1996,
+    "slug": "chinese-new-year-golf-challenge-2024-templer-park-country-club",
+    "title": "Chinese New Year Golf Challenge 2024 @ Templer Park Country Club",
+    "startDate": "2024-02-29T08:00:00",
+    "endDate": "2024-02-29T17:00:00",
+    "allDay": false,
+    "cost": "",
+    "website": "",
+    "image": {
+      "src": "/images/2024/02/new-project-2.jpg",
+      "alt": "Chinese New Year Golf Challenge 2024 @ Templer Park Country Club",
+      "width": 400,
+      "height": 225
+    },
+    "venueSlug": "templer-park-country-club-tpcc",
+    "categories": [
+      "event"
+    ],
+    "excerpt": "Date : 29th February 2024 (Thursday) Venue : Templer Park Country Club Tee off : 7.45 am MOP : Stableford Category : Senior, Super Senior & Golden Senior.",
+    "blocks": [
+      {
+        "type": "paragraph",
+        "html": "Date : 29th February 2024 (Thursday)"
+      },
+      {
+        "type": "paragraph",
+        "html": "Venue : Templer Park Country Club"
+      },
+      {
+        "type": "paragraph",
+        "html": "Tee off : 7.45 am"
+      },
+      {
+        "type": "paragraph",
+        "html": "MOP : Stableford"
+      },
+      {
+        "type": "paragraph",
+        "html": "Category : Senior, Super Senior &amp; Golden Senior."
+      }
+    ]
+  },
+  {
+    "id": 2025,
+    "slug": "sgsm-aidilfitri-golf-challenge-2024-kota-seriemas-golf-country-club",
+    "title": "SGSM Aidilfitri Golf Challenge 2024 @ Kota Seriemas Golf & Country Club",
+    "startDate": "2024-04-25T08:00:00",
+    "endDate": "2024-04-25T17:00:00",
+    "allDay": false,
+    "cost": "",
+    "website": "",
+    "image": {
+      "src": "/images/2024/04/sgsm-aidilfitri-2024.jpg",
+      "alt": "SGSM Aidilfitri Golf Challenge 2024 @ Kota Seriemas Golf & Country Club",
+      "width": 400,
+      "height": 225
+    },
+    "venueSlug": "kota-seriemas-golf-country-club",
+    "categories": [
+      "event"
+    ],
+    "excerpt": "Date : 25th April 2024 (Thursday) MOP : Strokeplay Venue : Kota Seriemas Golf & Country Club, Nilai, Negeri Sembilan. Tee off : 7.45 am",
+    "blocks": [
+      {
+        "type": "paragraph",
+        "html": "Date : 25th April 2024 (Thursday)"
+      },
+      {
+        "type": "paragraph",
+        "html": "MOP : Strokeplay"
+      },
+      {
+        "type": "paragraph",
+        "html": "Venue : Kota Seriemas Golf &amp; Country Club, Nilai, Negeri Sembilan."
+      },
+      {
+        "type": "paragraph",
+        "html": "Tee off : 7.45 am"
+      }
+    ]
+  },
+  {
+    "id": 2036,
+    "slug": "sgsm-may-monthly-medal-2024-impian-golf-country-club",
+    "title": "SGSM May Monthly Medal 2024 @ Impian Golf & Country Club",
+    "startDate": "2024-05-28T08:00:00",
+    "endDate": "2024-05-28T17:00:00",
+    "allDay": false,
+    "cost": "",
+    "website": "",
+    "image": {
+      "src": "/images/2024/05/sgsm-may-mm-2024.png",
+      "alt": "SGSM May Monthly Medal 2024 @ Impian Golf & Country Club",
+      "width": 400,
+      "height": 225
+    },
+    "venueSlug": "impian-golf-country-club",
+    "categories": [
+      "event"
+    ],
+    "excerpt": "Date: 28th May 2024 Venue: Impian Golf & Country Club, Kajang MOP: Stableford Tee off: 7.45 am Please contact admin SGSM (012-852 8857) for more details",
+    "blocks": [
+      {
+        "type": "paragraph",
+        "html": "Date: 28th May 2024"
+      },
+      {
+        "type": "paragraph",
+        "html": "Venue: Impian Golf &amp; Country Club, Kajang"
+      },
+      {
+        "type": "paragraph",
+        "html": "MOP: Stableford"
+      },
+      {
+        "type": "paragraph",
+        "html": "Tee off: 7.45 am"
+      },
+      {
+        "type": "paragraph",
+        "html": "Please contact admin SGSM (012-852 8857) for more details"
+      }
+    ]
+  },
+  {
+    "id": 2044,
+    "slug": "anniversary-trophy-2024-and-90th-annual-general-meeting-glenmarie-golf-country-club",
+    "title": "Anniversary Trophy 2024 and 90th Annual General Meeting @ Glenmarie Golf & Country Club",
+    "startDate": "2024-06-24T08:00:00",
+    "endDate": "2024-06-24T17:00:00",
+    "allDay": false,
+    "cost": "",
+    "website": "",
+    "image": {
+      "src": "/images/2024/05/anniversary-n-agm-2024.jpg",
+      "alt": "Anniversary Trophy 2024 and 90th Annual General Meeting @ Glenmarie Golf & Country Club",
+      "width": 400,
+      "height": 225
+    },
+    "venueSlug": "glenmarie-golf-country-club",
+    "categories": [
+      "event"
+    ],
+    "excerpt": "SGSM Anniversary Trophy 2024 Date: 24th June 2024 Venue: Glenmarie Golf & Country Club Tee Off : 7:45am 90th SGSM Annual General Meeting Date: 24th June 2024…",
+    "blocks": [
+      {
+        "type": "paragraph",
+        "html": "<strong>SGSM Anniversary Trophy 2024</strong>"
+      },
+      {
+        "type": "paragraph",
+        "html": "Date: 24th June 2024"
+      },
+      {
+        "type": "paragraph",
+        "html": "Venue: Glenmarie Golf &amp; Country Club"
+      },
+      {
+        "type": "paragraph",
+        "html": "Tee Off : 7:45am"
+      },
+      {
+        "type": "paragraph",
+        "html": "<strong>90th SGSM Annual General Meeting</strong>"
+      },
+      {
+        "type": "paragraph",
+        "html": "Date: 24th June 2024"
+      },
+      {
+        "type": "paragraph",
+        "html": "Venue: Dewan Cendrawasih, Glenmarie Golf &amp; Country Club"
+      },
+      {
+        "type": "paragraph",
+        "html": "Time: 2.00pm"
+      }
+    ]
+  },
+  {
+    "id": 2061,
+    "slug": "sgsm-july-monthly-medal-2024-impian-golf-country-club",
+    "title": "SGSM July Monthly Medal 2024 @ Impian Golf & Country Club",
+    "startDate": "2024-07-31T08:00:00",
+    "endDate": "2024-07-31T17:00:00",
+    "allDay": false,
+    "cost": "",
+    "website": "",
+    "image": {
+      "src": "/images/2024/07/july-mm-2024.jpg",
+      "alt": "SGSM July Monthly Medal 2024 @ Impian Golf & Country Club",
+      "width": 400,
+      "height": 225
+    },
+    "venueSlug": "impian-golf-country-club",
+    "categories": [
+      "event"
+    ],
+    "excerpt": "Date : 31st July 2024 Venue : Impian Golf & Country Club, Kajang, Selangor. Tee Off : 7.45am",
+    "blocks": [
+      {
+        "type": "paragraph",
+        "html": "Date : 31st July 2024"
+      },
+      {
+        "type": "paragraph",
+        "html": "Venue : Impian Golf &amp; Country Club, Kajang, Selangor."
+      },
+      {
+        "type": "paragraph",
+        "html": "Tee Off : 7.45am"
+      }
+    ]
+  },
+  {
+    "id": 2119,
+    "slug": "sgsm-datuk-wira-as-khamis-challenge-trophy-2024-kota-permai-golf-country-club",
+    "title": "SGSM Datuk Wira AS Khamis Challenge Trophy 2024 @ Kota Permai Golf & Country Club",
+    "startDate": "2024-08-29T08:00:00",
+    "endDate": "2024-08-29T17:00:00",
+    "allDay": false,
+    "cost": "",
+    "website": "",
+    "image": {
+      "src": "/images/2024/08/dwask-2024.jpg",
+      "alt": "SGSM Datuk Wira AS Khamis Challenge Trophy 2024 @ Kota Permai Golf & Country Club",
+      "width": 400,
+      "height": 150
+    },
+    "venueSlug": "kota-permai-golf-country-club-shah-alam",
+    "categories": [
+      "event"
+    ],
+    "excerpt": "Date : 29th August 2024 Venue : Kota Permai Golf & Country Club, Shah Alam. Tee Off : 7:45 am",
+    "blocks": [
+      {
+        "type": "paragraph",
+        "html": "Date : 29th August 2024"
+      },
+      {
+        "type": "paragraph",
+        "html": "Venue : Kota Permai Golf &amp; Country Club, Shah Alam."
+      },
+      {
+        "type": "paragraph",
+        "html": "Tee Off : 7:45 am"
+      }
+    ]
+  },
+  {
+    "id": 2130,
+    "slug": "sgsm-october-monthly-medal-1st-extraordinary-meeting-2024-templer-park-country-club",
+    "title": "SGSM October Monthly Medal & 1st Extraordinary General Meeting 2024 @ Templer Park Country Club",
+    "startDate": "2024-10-24T08:00:00",
+    "endDate": "2024-10-24T17:00:00",
+    "allDay": false,
+    "cost": "",
+    "website": "",
+    "image": {
+      "src": "/images/2024/10/oct-mm-2024.jpg",
+      "alt": "SGSM October Monthly Medal & 1st Extraordinary General Meeting 2024 @ Templer Park Country Club",
+      "width": 400,
+      "height": 225
+    },
+    "venueSlug": "templer-park-country-club-tpcc",
+    "categories": [
+      "event"
+    ],
+    "excerpt": "Date 24th October 2024 Golf Tee Off : 7:45am EGM Time : 2:30pm Venue: Templer Park Country Club",
+    "blocks": [
+      {
+        "type": "paragraph",
+        "html": "Date 24th October 2024"
+      },
+      {
+        "type": "paragraph",
+        "html": "Golf Tee Off : 7:45am"
+      },
+      {
+        "type": "paragraph",
+        "html": "EGM Time : 2:30pm"
+      },
+      {
+        "type": "paragraph",
+        "html": "Venue: Templer Park Country Club"
+      }
+    ]
+  },
+  {
+    "id": 2173,
+    "slug": "sgsm-annual-championship-2024-glenmarie-golf-country-club",
+    "title": "SGSM Annual Championship 2024 @ Glenmarie Golf & Country Club",
+    "startDate": "2024-12-02T08:00:00",
+    "endDate": "2024-12-03T17:00:00",
+    "allDay": false,
+    "cost": "",
+    "website": "",
+    "image": {
+      "src": "/images/2024/11/annual-champ-website.png",
+      "alt": "SGSM Annual Championship 2024 @ Glenmarie Golf & Country Club",
+      "width": 400,
+      "height": 225
+    },
+    "venueSlug": "glenmarie-golf-country-club",
+    "categories": [
+      "event"
+    ],
+    "excerpt": "Date: 2nd & 3rd December 2024 Venue: Glenmarie Golf & Country Club Tee Off: 7:45am",
+    "blocks": [
+      {
+        "type": "paragraph",
+        "html": "Date: 2nd &amp; 3rd December 2024"
+      },
+      {
+        "type": "paragraph",
+        "html": "Venue: Glenmarie Golf &amp; Country Club"
+      },
+      {
+        "type": "paragraph",
+        "html": "Tee Off: 7:45am"
+      }
+    ]
+  },
+  {
+    "id": 2176,
+    "slug": "sgsm-annual-dinner-2024-kelab-shah-alam-selangor",
+    "title": "SGSM Annual Dinner 2024 @ Kelab Shah Alam Selangor",
+    "startDate": "2024-12-02T08:00:00",
+    "endDate": "2024-12-02T17:00:00",
+    "allDay": false,
+    "cost": "",
+    "website": "https://kelabshahalam.com/about/",
+    "image": {
+      "src": "/images/2024/11/annual-dinner-2024.png",
+      "alt": "SGSM Annual Dinner 2024 @ Kelab Shah Alam Selangor",
+      "width": 400,
+      "height": 225
+    },
+    "venueSlug": "kelab-shah-alam-selangor",
+    "categories": [
+      "event"
+    ],
+    "excerpt": "Date: 2nd December 2024 Time: 7:00pm",
+    "blocks": [
+      {
+        "type": "paragraph",
+        "html": "Date: 2nd December 2024"
+      },
+      {
+        "type": "paragraph",
+        "html": "Time: 7:00pm"
+      }
+    ]
+  },
+  {
+    "id": 2185,
+    "slug": "sgsm-presidents-trophy-2025-kota-seriemas-golf-country-club",
+    "title": "SGSM President’s Trophy 2025 @ Kota Seriemas Golf & Country Club",
+    "startDate": "2025-01-23T08:00:00",
+    "endDate": "2025-01-23T17:00:00",
+    "allDay": false,
+    "cost": "260RM",
+    "website": "",
+    "image": {
+      "src": "/images/2025/01/pt-2025.jpg",
+      "alt": "SGSM President’s Trophy 2025 @ Kota Seriemas Golf & Country Club",
+      "width": 400,
+      "height": 225
+    },
+    "venueSlug": "kota-seriemas-golf-country-club",
+    "categories": [
+      "event"
+    ],
+    "excerpt": "Date : 23rd January 2025 Venue : Kota Seriemas Golf & Country Club, Nilai, Negeri Sembilan. Tee off : 7:45 am",
+    "blocks": [
+      {
+        "type": "paragraph",
+        "html": "Date : 23rd January 2025"
+      },
+      {
+        "type": "paragraph",
+        "html": "Venue : Kota Seriemas Golf &amp; Country Club, Nilai, Negeri Sembilan."
+      },
+      {
+        "type": "paragraph",
+        "html": "Tee off : 7:45 am"
+      }
+    ]
+  },
+  {
+    "id": 2200,
+    "slug": "sgsm-chinese-new-year-golf-challenge-2025-bukit-jalil-golf-country-resort",
+    "title": "SGSM Chinese New Year Golf Challenge 2025 @ Bukit Jalil Golf & Country Resort",
+    "startDate": "2025-02-19T08:00:00",
+    "endDate": "2025-02-19T17:00:00",
+    "allDay": false,
+    "cost": "",
+    "website": "",
+    "image": {
+      "src": "/images/2025/04/cny-2025-banner.jpg",
+      "alt": "SGSM Chinese New Year Golf Challenge 2025 @ Bukit Jalil Golf & Country Resort",
+      "width": 400,
+      "height": 225
+    },
+    "venueSlug": "bukit-jalil-golf-country-resort-bjgcr",
+    "categories": [
+      "event"
+    ],
+    "excerpt": "Date : 19th February 2025 Venue : Bukit Jalil Golf & Country Resort Tee Off : 7:45am",
+    "blocks": [
+      {
+        "type": "paragraph",
+        "html": "Date : 19th February 2025"
+      },
+      {
+        "type": "paragraph",
+        "html": "Venue : Bukit Jalil Golf &amp; Country Resort"
+      },
+      {
+        "type": "paragraph",
+        "html": "Tee Off : 7:45am"
+      }
+    ]
+  },
+  {
+    "id": 2223,
+    "slug": "sgsm-aidilfitri-golf-challenge-2025-staffield-golf-resort",
+    "title": "SGSM Aidilfitri Golf Challenge 2025 @ Staffield Golf Country Resort",
+    "startDate": "2025-05-15T08:00:00",
+    "endDate": "2025-05-15T17:00:00",
+    "allDay": false,
+    "cost": "",
+    "website": "",
+    "image": {
+      "src": "/images/2025/09/sgsm-aidilftri-2025.jpg",
+      "alt": "SGSM Aidilfitri Golf Challenge 2025 @ Staffield Golf Country Resort",
+      "width": 400,
+      "height": 150
+    },
+    "venueSlug": "staffield-golf-country-resort",
+    "categories": [
+      "event"
+    ],
+    "excerpt": "Date: 15th May 2025 Venue: Staffield Golf Resort, Mantin, Negeri Sembilan Tee Off: 7:45am",
+    "blocks": [
+      {
+        "type": "paragraph",
+        "html": "Date: 15th May 2025"
+      },
+      {
+        "type": "paragraph",
+        "html": "Venue: Staffield Golf Resort, Mantin, Negeri Sembilan"
+      },
+      {
+        "type": "paragraph",
+        "html": "Tee Off: 7:45am"
+      }
+    ]
+  },
+  {
+    "id": 2227,
+    "slug": "sgsm-anniversary-trophy-91st-annual-general-meeting-2025-sungai-long-golf-country-club",
+    "title": "SGSM Anniversary Trophy & 91st Annual General Meeting 2025 @ Sungai Long Golf & Country Club",
+    "startDate": "2025-06-25T08:00:00",
+    "endDate": "2025-06-25T17:00:00",
+    "allDay": false,
+    "cost": "",
+    "website": "",
+    "image": {
+      "src": "/images/2025/09/sgsm-at-2025.jpg",
+      "alt": "SGSM Anniversary Trophy & 91st Annual General Meeting 2025 @ Sungai Long Golf & Country Club",
+      "width": 400,
+      "height": 150
+    },
+    "venueSlug": "sungai-long-golf-country-club",
+    "categories": [
+      "event"
+    ],
+    "excerpt": "Date: 25th June 2025 (Wednesday) Venue: Sungai Long Golf & Country Club Tee Off: 7:45am",
+    "blocks": [
+      {
+        "type": "paragraph",
+        "html": "Date: 25th June 2025 (Wednesday)"
+      },
+      {
+        "type": "paragraph",
+        "html": "Venue: Sungai Long Golf &amp; Country Club"
+      },
+      {
+        "type": "paragraph",
+        "html": "Tee Off: 7:45am"
+      }
+    ]
+  },
+  {
+    "id": 2235,
+    "slug": "sgsm-southern-cup-2025-ioi-palm-villa-golf-country-club",
+    "title": "SGSM Southern Cup 2025 @ IOI Palm Villa Golf & Country Club",
+    "startDate": "2025-07-23T08:00:00",
+    "endDate": "2025-07-23T17:00:00",
+    "allDay": false,
+    "cost": "",
+    "website": "",
+    "image": {
+      "src": "/images/2025/09/sgsm-southern-cup-2025.jpg",
+      "alt": "SGSM Southern Cup 2025 @ IOI Palm Villa Golf & Country Club",
+      "width": 400,
+      "height": 150
+    },
+    "venueSlug": "ioi-palm-villa-golf-country-club",
+    "categories": [
+      "event"
+    ],
+    "excerpt": "Date: 23rd July 2025 (Wednesday) Venue: IOI Palm Villa Golf & Country Club Tee Off: 7:45am",
+    "blocks": [
+      {
+        "type": "paragraph",
+        "html": "Date: 23rd July 2025 (Wednesday)"
+      },
+      {
+        "type": "paragraph",
+        "html": "Venue: IOI Palm Villa Golf &amp; Country Club"
+      },
+      {
+        "type": "paragraph",
+        "html": "Tee Off: 7:45am"
+      }
+    ]
+  },
+  {
+    "id": 2240,
+    "slug": "sgsm-malaysiaku-merdeka-datuk-wira-as-khamis-challenge-trophy-2025-templer-park-country-club",
+    "title": "SGSM Malaysiaku Merdeka Datuk Wira AS Khamis Challenge Trophy 2025 @ Templer Park Country Club",
+    "startDate": "2025-08-07T08:00:00",
+    "endDate": "2025-08-07T17:00:00",
+    "allDay": false,
+    "cost": "",
+    "website": "",
+    "image": {
+      "src": "/images/2025/09/sgsm-dwask-2025.jpg",
+      "alt": "SGSM Malaysiaku Merdeka Datuk Wira AS Khamis Challenge Trophy 2025 @ Templer Park Country Club",
+      "width": 400,
+      "height": 150
+    },
+    "venueSlug": "templer-park-country-club-tpcc",
+    "categories": [
+      "event"
+    ],
+    "excerpt": "Date: 7th August 2025 Venue: Templer Park Country Resort Tee Off: 7:45am",
+    "blocks": [
+      {
+        "type": "paragraph",
+        "html": "Date: 7th August 2025"
+      },
+      {
+        "type": "paragraph",
+        "html": "Venue: Templer Park Country Resort"
+      },
+      {
+        "type": "paragraph",
+        "html": "Tee Off: 7:45am"
+      }
+    ]
+  },
+  {
+    "id": 2243,
+    "slug": "sgsm-matrix-golf-challenge-2025-kota-permai-golf-country-club",
+    "title": "SGSM-Matrix Golf Challenge 2025 @ Kota Permai Golf & Country Club",
+    "startDate": "2025-09-18T08:00:00",
+    "endDate": "2025-09-18T17:00:00",
+    "allDay": false,
+    "cost": "",
+    "website": "",
+    "image": {
+      "src": "/images/2025/09/sgsm-matrix-2025.jpg",
+      "alt": "SGSM-Matrix Golf Challenge 2025 @ Kota Permai Golf & Country Club",
+      "width": 400,
+      "height": 150
+    },
+    "venueSlug": "kota-permai-golf-country-club-shah-alam",
+    "categories": [
+      "event"
+    ],
+    "excerpt": "Date: 18th September 2025 (Thursday) Venue: Kota Permai Golf & Country Club Tee Off: 7:45am",
+    "blocks": [
+      {
+        "type": "paragraph",
+        "html": "Date: 18th September 2025 (Thursday)"
+      },
+      {
+        "type": "paragraph",
+        "html": "Venue: Kota Permai Golf &amp; Country Club"
+      },
+      {
+        "type": "paragraph",
+        "html": "Tee Off: 7:45am"
+      }
+    ]
+  },
+  {
+    "id": 2247,
+    "slug": "casga-intermediate-general-meeting-2025-a-famosa-golf-resort",
+    "title": "CASGA Intermediate General Meeting 2025 @ A’ Famosa Golf Resort",
+    "startDate": "2025-05-04T08:00:00",
+    "endDate": "2025-05-07T17:00:00",
+    "allDay": false,
+    "cost": "",
+    "website": "",
+    "image": {
+      "src": "/images/2025/09/igm-casga-2025.jpg",
+      "alt": "CASGA Intermediate General Meeting 2025 @ A’ Famosa Golf Resort",
+      "width": 400,
+      "height": 150
+    },
+    "venueSlug": "a-famosa-golf-resort-melaka",
+    "categories": [
+      "event"
+    ],
+    "excerpt": "Date: 4th – 7th May 2025 Venue: A’Famosa Golf Resort & Parkroyal Hotel, Malacca",
+    "blocks": [
+      {
+        "type": "paragraph",
+        "html": "Date: 4th – 7th May 2025"
+      },
+      {
+        "type": "paragraph",
+        "html": "Venue: A’Famosa Golf Resort &amp; Parkroyal Hotel, Malacca"
+      }
+    ]
+  },
+  {
+    "id": 2319,
+    "slug": "sgsm-interstate-team-golf-championship-2025-staffield-country-resort",
+    "title": "SGSM Interstate Team Golf Championship 2025 @ Staffield Country Resort",
+    "startDate": "2025-10-22T08:00:00",
+    "endDate": "2025-10-23T17:00:00",
+    "allDay": false,
+    "cost": "",
+    "website": "",
+    "image": {
+      "src": "/images/2026/05/interstate-2025.jpg",
+      "alt": "SGSM Interstate Team Golf Championship 2025 @ Staffield Country Resort",
+      "width": 400,
+      "height": 150
+    },
+    "venueSlug": "staffield-golf-country-resort",
+    "categories": [
+      "event"
+    ],
+    "excerpt": "Date: 22nd & 23rd October 2025 Venue: Staffield Country Resort (SCR) Tee Off: 8:15am",
+    "blocks": [
+      {
+        "type": "paragraph",
+        "html": "Date: 22nd &amp; 23rd October 2025"
+      },
+      {
+        "type": "paragraph",
+        "html": "Venue: Staffield Country Resort (SCR)"
+      },
+      {
+        "type": "paragraph",
+        "html": "Tee Off: 8:15am"
+      }
+    ]
+  },
+  {
+    "id": 2324,
+    "slug": "sgsm-interstate-team-golf-championship-seremban-international-golf-club",
+    "title": "SGSM Interstate Team Golf Championship 2025 @ Seremban International Golf Club",
+    "startDate": "2025-10-22T08:00:00",
+    "endDate": "2025-10-23T17:00:00",
+    "allDay": false,
+    "cost": "",
+    "website": "",
+    "image": {
+      "src": "/images/2026/05/interstate-2025.jpg",
+      "alt": "SGSM Interstate Team Golf Championship 2025 @ Seremban International Golf Club",
+      "width": 400,
+      "height": 150
+    },
+    "venueSlug": "seremban-internationational-golf-club-sigc-seremban",
+    "categories": [
+      "event"
+    ],
+    "excerpt": "Date: 22nd & 23rd October 2025 Venue: Seremban International Golf Club (SIGC) Tee Off: 8:15am",
+    "blocks": [
+      {
+        "type": "paragraph",
+        "html": "Date: 22nd &amp; 23rd October 2025"
+      },
+      {
+        "type": "paragraph",
+        "html": "Venue: Seremban International Golf Club (SIGC)"
+      },
+      {
+        "type": "paragraph",
+        "html": "Tee Off: 8:15am"
+      }
+    ]
+  },
+  {
+    "id": 2329,
+    "slug": "sgsm-annual-championship-2025-tropicana-golf-country-resort",
+    "title": "SGSM Annual Championship 2025 @ Tropicana Golf & Country Resort",
+    "startDate": "2025-12-16T08:00:00",
+    "endDate": "2025-12-17T17:00:00",
+    "allDay": false,
+    "cost": "",
+    "website": "",
+    "image": {
+      "src": "/images/2026/05/annual-championship-2025.jpg",
+      "alt": "SGSM Annual Championship 2025 @ Tropicana Golf & Country Resort",
+      "width": 400,
+      "height": 150
+    },
+    "venueSlug": "tropicana-golf-country-resort",
+    "categories": [
+      "event"
+    ],
+    "excerpt": "Date: 16th & 17th December 2025 Venue: Tropicana Golf & Country Resort Tee Off: 7:45am",
+    "blocks": [
+      {
+        "type": "paragraph",
+        "html": "Date: 16th &amp; 17th December 2025"
+      },
+      {
+        "type": "paragraph",
+        "html": "Venue: Tropicana Golf &amp; Country Resort"
+      },
+      {
+        "type": "paragraph",
+        "html": "Tee Off: 7:45am"
+      }
+    ]
+  },
+  {
+    "id": 2334,
+    "slug": "sgsm-annual-championship-2025-seri-selangor-golf-club",
+    "title": "SGSM Annual Championship 2025 @ Seri Selangor Golf Club",
+    "startDate": "2025-12-16T08:00:00",
+    "endDate": "2025-12-17T17:00:00",
+    "allDay": false,
+    "cost": "",
+    "website": "",
+    "image": {
+      "src": "/images/2026/05/annual-championship-2025.jpg",
+      "alt": "SGSM Annual Championship 2025 @ Seri Selangor Golf Club",
+      "width": 400,
+      "height": 150
+    },
+    "venueSlug": "kelab-golf-seri-selangor-kgss",
+    "categories": [
+      "event"
+    ],
+    "excerpt": "Date: 16th & 17th December 2025 Venue: Seri Selangor Golf Club Tee Off: 7:45am",
+    "blocks": [
+      {
+        "type": "paragraph",
+        "html": "Date: 16th &amp; 17th December 2025"
+      },
+      {
+        "type": "paragraph",
+        "html": "Venue: Seri Selangor Golf Club"
+      },
+      {
+        "type": "paragraph",
+        "html": "Tee Off: 7:45am"
+      }
+    ]
+  },
+  {
+    "id": 2336,
+    "slug": "sgsm-president-trophy-2026-kota-seriemas-golf-country-club",
+    "title": "SGSM President’s Trophy 2026 @ Kota Seriemas Golf & Country Club",
+    "startDate": "2026-02-05T08:00:00",
+    "endDate": "2026-02-05T17:00:00",
+    "allDay": false,
+    "cost": "",
+    "website": "",
+    "image": {
+      "src": "/images/2026/05/president-trophy-2026.jpg",
+      "alt": "SGSM President’s Trophy 2026 @ Kota Seriemas Golf & Country Club",
+      "width": 400,
+      "height": 150
+    },
+    "venueSlug": "kota-seriemas-golf-country-club",
+    "categories": [
+      "event"
+    ],
+    "excerpt": "Date: 5th February 2026 Venue: Kota Seriemas Golf & Country Club, Nilai Tee Off: 7:45am",
+    "blocks": [
+      {
+        "type": "paragraph",
+        "html": "Date: 5th February 2026"
+      },
+      {
+        "type": "paragraph",
+        "html": "Venue: Kota Seriemas Golf &amp; Country Club, Nilai"
+      },
+      {
+        "type": "paragraph",
+        "html": "Tee Off: 7:45am"
+      }
+    ]
+  },
+  {
+    "id": 2342,
+    "slug": "sgsm-annual-dinner-prize-presentation-royal-lake-club",
+    "title": "SGSM Annual Dinner & Prize Presentation @ Royal Lake Club",
+    "startDate": "2025-12-17T08:00:00",
+    "endDate": "2025-12-17T17:00:00",
+    "allDay": false,
+    "cost": "",
+    "website": "",
+    "image": {
+      "src": "/images/2026/05/annual-dinner-2025.jpg",
+      "alt": "SGSM Annual Dinner & Prize Presentation @ Royal Lake Club",
+      "width": 400,
+      "height": 150
+    },
+    "venueSlug": "royal-lake-club-kuala-lumpur",
+    "categories": [
+      "event"
+    ],
+    "excerpt": "Date: 17th December 2025 Venue, Royal Lake Club Time: 7:00pm",
+    "blocks": [
+      {
+        "type": "paragraph",
+        "html": "Date: 17th December 2025"
+      },
+      {
+        "type": "paragraph",
+        "html": "Venue, Royal Lake Club"
+      },
+      {
+        "type": "paragraph",
+        "html": "Time: 7:00pm"
+      }
+    ]
+  },
+  {
+    "id": 2348,
+    "slug": "sgsm-gongxi-raya-golf-open-house-2026-kelab-golf-negara-subang",
+    "title": "SGSM GongXi Raya Golf & Open House 2026 @ Kelab Golf Negara Subang",
+    "startDate": "2026-04-15T08:00:00",
+    "endDate": "2026-04-15T17:00:00",
+    "allDay": false,
+    "cost": "",
+    "website": "",
+    "image": {
+      "src": "/images/2026/05/gongxi-raya-golf-2026.jpg",
+      "alt": "SGSM GongXi Raya Golf & Open House 2026 @ Kelab Golf Negara Subang",
+      "width": 400,
+      "height": 150
+    },
+    "venueSlug": "kelab-golf-negara-subang-kgns",
+    "categories": [
+      "event"
+    ],
+    "excerpt": "Date: 15th April 2026 Venue: Kelab Golf Negara Subang Tee Off: 7:45am",
+    "blocks": [
+      {
+        "type": "paragraph",
+        "html": "Date: 15th April 2026"
+      },
+      {
+        "type": "paragraph",
+        "html": "Venue: Kelab Golf Negara Subang"
+      },
+      {
+        "type": "paragraph",
+        "html": "Tee Off: 7:45am"
+      }
+    ]
+  },
+  {
+    "id": 2351,
+    "slug": "sgsm-may-monthly-medal-2026-kelab-golf-seri-selangor",
+    "title": "SGSM May Monthly Medal 2026 @ Kelab Golf Seri Selangor",
+    "startDate": "2026-05-14T08:00:00",
+    "endDate": "2026-05-14T17:00:00",
+    "allDay": false,
+    "cost": "",
+    "website": "",
+    "image": {
+      "src": "/images/2026/05/sgsm-may-mm-2026.jpg",
+      "alt": "SGSM May Monthly Medal 2026 @ Kelab Golf Seri Selangor",
+      "width": 400,
+      "height": 150
+    },
+    "venueSlug": "kelab-golf-seri-selangor-kgss",
+    "categories": [
+      "event"
+    ],
+    "excerpt": "Date: 14th May 2026 Venue: Kelab Golf Seri Selangor Tee Off: 7:45am",
+    "blocks": [
+      {
+        "type": "paragraph",
+        "html": "Date: 14th May 2026"
+      },
+      {
+        "type": "paragraph",
+        "html": "Venue: Kelab Golf Seri Selangor"
+      },
+      {
+        "type": "paragraph",
+        "html": "Tee Off: 7:45am"
+      }
+    ]
+  },
+  {
+    "id": 2379,
+    "slug": "sgsm-anniversary-trophy-2026-92nd-annual-general-meeting-nilai-springs-golf-country-club",
+    "title": "SGSM Anniversary Trophy 2026 & 92nd Annual General Meeting @ Nilai Springs Golf & Country Club",
+    "startDate": "2026-06-25T08:00:00",
+    "endDate": "2026-06-25T17:00:00",
+    "allDay": false,
+    "cost": "",
+    "website": "",
+    "image": {
+      "src": "/images/2026/06/sgsm-anniversary-trophy-2026.jpeg",
+      "alt": "SGSM Anniversary Trophy 2026 & 92nd Annual General Meeting @ Nilai Springs Golf & Country Club",
+      "width": 1600,
+      "height": 533
+    },
+    "venueSlug": "nilai-springs-golf-country-club-negeri-sembilan",
+    "categories": [
+      "event"
+    ],
+    "excerpt": "Date : 25th June 2026 (Thursday) Tee Off: 7:45 am Entrance Fees: RM280 (S & SS) /RM260 (GS)",
+    "blocks": [
+      {
+        "type": "paragraph",
+        "html": "Date : 25th June 2026 (Thursday)"
+      },
+      {
+        "type": "paragraph",
+        "html": "Tee Off: 7:45 am"
+      },
+      {
+        "type": "paragraph",
+        "html": "Entrance Fees: RM280 (S &amp; SS) /RM260 (GS)"
+      }
+    ]
+  },
+  {
+    "id": 2397,
+    "slug": "sgsm-matrix-golf-challenge-2026-kelab-golf-negara-subang",
+    "title": "SGSM-MATRIX Golf Challenge 2026 @ Kelab Golf Negara Subang",
+    "startDate": "2026-09-09T08:00:00",
+    "endDate": "2026-09-09T17:00:00",
+    "allDay": false,
+    "cost": "",
+    "website": "",
+    "image": {
+      "src": "/images/2026/09/whatsapp-image-2026-09-02-at-10.29.11-am.jpeg",
+      "alt": "SGSM-MATRIX Golf Challenge 2026 @ Kelab Golf Negara Subang",
+      "width": 1600,
+      "height": 900
+    },
+    "venueSlug": "kelab-golf-negara-subang-kgns",
+    "categories": [
+      "event"
+    ],
+    "excerpt": "Date: 9th September 2026 Tee Off: 7:45AM",
+    "blocks": [
+      {
+        "type": "paragraph",
+        "html": "Date: 9th September 2026"
+      },
+      {
+        "type": "paragraph",
+        "html": "Tee Off: 7:45AM"
+      }
+    ]
+  }
+]
