@@ -42,8 +42,8 @@ src/
 All work without custom setup. Bash on this Windows machine takes ~2 minutes to start; prefer `PowerShell`:
 
 ```bash
-npm run dev                  # Next.js dev server (turbopack)
-npm run build                # Production build (turbopack)
+npm run dev                  # Next.js dev server (webpack — NOT turbopack, see below)
+npm run build                # Production build (webpack — NOT turbopack, see below)
 npm start                    # Start production server
 npx tsc --noEmit             # Type check (zero errors/warnings required)
 npm run lint                 # ESLint (see eslint.config.mjs)
@@ -89,6 +89,17 @@ These are non-negotiable and verified by `npm run build` + bundle analysis:
 
 ## Notes
 
+- **Do NOT add `--turbopack` to `dev` or `build`.** Both were reverted to webpack because
+  Turbopack (Next 15.5.25) breaks this project in two separate ways, each reproduced:
+  1. `next dev --turbopack` does not honour `serverExternalPackages`, so `node-sqlite3-wasm`
+     gets bundled and opens an **empty in-memory database**. Every data-backed page then
+     renders the error boundary with `SQLite3Error: no such table: events` (and `downloads`,
+     `gallery_albums`, …) while the real `data/sgsm.db` is perfectly healthy.
+     Plain `next dev` serves all the same routes at 200 with no errors.
+  2. `next build --turbopack` fails on Windows with
+     `ENOENT: no such file or directory, rename '.next/export/500.html'`.
+  If a page suddenly reports a missing table, check for `--turbopack` before suspecting the DB.
+  Confirm the DB itself with: `node scripts/seed-db.mjs` then `node scripts/db-verify.mjs`.
 - **Bash tool takes ~2 minutes to start on this Windows machine.** Use the PowerShell tool for shell commands.
 - The `.foreman/` directory is off-limits; it contains schemas and architecture. Read it, do not modify it.
 - Workers are building `src/` concurrently. Do not modify files outside the write set (CLAUDE.md, `.claude/settings.json`, `.claude/agents/`, `.claude/commands/`).
