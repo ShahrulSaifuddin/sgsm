@@ -32,6 +32,16 @@ export function Header({ site }: HeaderProps) {
   const [mobileOpen, setMobileOpen] = useState(false);
   const navRef = useRef<HTMLElement>(null);
   const triggerRefs = useRef<Record<string, HTMLButtonElement | null>>({});
+  // Whether the current pointer is a real mouse (as opposed to touch, which
+  // can synthesise mouseenter/mouseleave and would otherwise make a tap open
+  // and immediately close the menu). Read via matchMedia in an effect — never
+  // during render — so server and client markup match, and kept in sync if
+  // the pointer type changes (e.g. a 2-in-1 laptop docking a mouse).
+  const canHoverRef = useRef(false);
+  // Delay before a mouseleave actually closes the menu, so moving the
+  // pointer diagonally from the trigger down into the panel doesn't clip
+  // through the gap between them and flicker the menu shut.
+  const closeTimerRef = useRef<number | null>(null);
 
   useEffect(() => {
     function onScroll() {
@@ -60,7 +70,47 @@ export function Header({ site }: HeaderProps) {
     return () => document.removeEventListener("click", onDocumentClick);
   }, [openMenu]);
 
+  // Gate hover behaviour behind a real "fine pointer with hover" device.
+  useEffect(() => {
+    const mql = window.matchMedia("(hover: hover) and (pointer: fine)");
+    canHoverRef.current = mql.matches;
+    function onChange(event: MediaQueryListEvent) {
+      canHoverRef.current = event.matches;
+    }
+    mql.addEventListener("change", onChange);
+    return () => mql.removeEventListener("change", onChange);
+  }, []);
+
+  useEffect(() => {
+    return () => {
+      if (closeTimerRef.current !== null) window.clearTimeout(closeTimerRef.current);
+    };
+  }, []);
+
+  function clearCloseTimer() {
+    if (closeTimerRef.current !== null) {
+      window.clearTimeout(closeTimerRef.current);
+      closeTimerRef.current = null;
+    }
+  }
+
+  function onGroupMouseEnter(key: string) {
+    if (!canHoverRef.current) return;
+    clearCloseTimer();
+    setOpenMenu(key);
+  }
+
+  function onGroupMouseLeave(key: string) {
+    if (!canHoverRef.current) return;
+    clearCloseTimer();
+    closeTimerRef.current = window.setTimeout(() => {
+      setOpenMenu((prev) => (prev === key ? null : prev));
+      closeTimerRef.current = null;
+    }, 180);
+  }
+
   function closeAndRefocus(key: string) {
+    clearCloseTimer();
     setOpenMenu(null);
     triggerRefs.current[key]?.focus();
   }
@@ -121,7 +171,13 @@ export function Header({ site }: HeaderProps) {
 
               const expanded = openMenu === item.href;
               return (
-                <li key={item.href} className="relative" onBlur={(event) => onGroupBlur(event, item.href)}>
+                <li
+                  key={item.href}
+                  className="relative"
+                  onBlur={(event) => onGroupBlur(event, item.href)}
+                  onMouseEnter={() => onGroupMouseEnter(item.href)}
+                  onMouseLeave={() => onGroupMouseLeave(item.href)}
+                >
                   <button
                     type="button"
                     ref={(el) => {
@@ -150,7 +206,7 @@ export function Header({ site }: HeaderProps) {
                       onKeyDown={(event) => {
                         if (event.key === "Escape") closeAndRefocus(item.href);
                       }}
-                      className="absolute left-0 top-full z-50 mt-1 min-w-64 rounded-lg border border-cream-50/10 bg-fairway-900 p-2 shadow-lift"
+                      className="nav-dropdown-panel absolute left-0 top-full z-50 mt-1 min-w-64 rounded-lg border border-cream-50/10 bg-fairway-900 p-2 shadow-lift"
                     >
                       {item.children?.map((child) => (
                         <Link

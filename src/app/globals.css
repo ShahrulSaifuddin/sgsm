@@ -143,6 +143,62 @@
 }
 
 /* -------------------------------------------------------------------- */
+/* Header dropdown + mobile drawer motion                                */
+/* -------------------------------------------------------------------- */
+@layer components {
+  /* Desktop hover/keyboard dropdown panel: fade + small rise on entrance.
+     A CSS animation (rather than a transition) plays automatically the
+     moment the panel mounts, so no open/closed class dance is needed —
+     it only ever needs an entrance, never an exit. The sitewide
+     `prefers-reduced-motion: reduce` rule in the base layer already forces
+     every animation-duration to 0.01ms, which satisfies "panel simply
+     appears" without a separate override here. */
+  @keyframes nav-dropdown-in {
+    from {
+      opacity: 0;
+      transform: translateY(-6px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+
+  .nav-dropdown-panel {
+    animation: nav-dropdown-in 0.18s ease-out;
+  }
+
+  /* Mobile drawer: slide in from the right; backdrop fades. */
+  .mobile-drawer-backdrop {
+    opacity: 0;
+    transition: opacity 0.2s ease-out;
+  }
+
+  .mobile-drawer-backdrop[data-open="true"] {
+    opacity: 1;
+    transition: opacity 0.25s ease-out;
+  }
+
+  .mobile-drawer-panel {
+    transform: translateX(100%);
+    transition: transform 0.2s ease-out;
+  }
+
+  .mobile-drawer-panel[data-open="true"] {
+    transform: translateX(0);
+    transition: transform 0.25s ease-out;
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    .mobile-drawer-backdrop,
+    .mobile-drawer-panel {
+      transition: none;
+      transform: none;
+    }
+  }
+}
+
+/* -------------------------------------------------------------------- */
 /* Skip-to-content link (contract §7)                                    */
 /* -------------------------------------------------------------------- */
 @layer components {
