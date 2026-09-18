@@ -1,0 +1,76 @@
+{
+  "slug": "home",
+  "title": "Home",
+  "description": "Senior Golfers' Society of Malaysia — news, events and privileges for members aged 55 and above.",
+  "blocks": [
+    {
+      "type": "gallery",
+      "images": [
+        {
+          "src": "/images/2026/09/selamatharikebangsaanmalaysia1.png",
+          "alt": "SGSM",
+          "width": 2560,
+          "height": 1280
+        },
+        {
+          "src": "/images/2026/06/awalmuharam2026.png",
+          "alt": "SGSM",
+          "width": 2560,
+          "height": 1280
+        },
+        {
+          "src": "/images/2026/05/aidiladha2026.jpg",
+          "alt": "SGSM",
+          "width": 2560,
+          "height": 1280
+        },
+        {
+          "src": "/images/2026/05/aidilfitri2026.jpg",
+          "alt": "SGSM",
+          "width": 2560,
+          "height": 1280
+        },
+        {
+          "src": "/images/2026/05/cny2026.jpg",
+          "alt": "SGSM",
+          "width": 2560,
+          "height": 1280
+        },
+        {
+          "src": "/images/2026/05/newyear2026.jpg",
+          "alt": "SGSM",
+          "width": 2560,
+          "height": 1280
+        },
+        {
+          "src": "/images/2024/02/mockup1.jpg",
+          "alt": "SGSM",
+          "width": 815,
+          "height": 341
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Notice to members"
+    },
+    {
+      "type": "image",
+      "image": {
+        "src": "/images/2024/02/img20240222111514copy4.jpg",
+        "alt": "Notice to members",
+        "width": 1200,
+        "height": 821
+      }
+    },
+    {
+      "type": "quote",
+      "html": "Handing over of a cheque worth RM250,000.00 from MCHB Chairman (YBhg. Dato’ Haji Mohamad Haslah Mohamad Amin) to SGSM President (YBhg. Dato’ Shamsudin Ismail) accompanied by SGSM Vice President (YBhg. Dato’ Haji Bahari Haji Abdullah) and MCHB Founder & Group Executive Deputy Chairman (YBhg. Dato’ Seri Lee Tian Hock)"
+    },
+    {
+      "type": "paragraph",
+      "html": "It gives me great pleasure to inform esteemed members of the SGSM family that we have entered into an agreement with Matrix Concepts Holdings Berhad to be our main sponsor and collaboration partner. <br> <br>Matrix Concepts is a Property Development company also involved in Construction, Education, Hospitality and Healthcare. <br> <br>Matrix Concepts will be supporting and sponsoring SGSM’s events and activities. I am confident that this partnership will also benefit members directly. <br> <br>I would like to thank the Chairman of Matrix Concepts Holdings Berhad, Dato' Haji Mohamad Haslah Bin Mohamad Amin, the Founder and Group Executive Deputy Chairman, Dato’ Seri Lee Tian Hock, and the Matrix Concepts’ Board and Management for choosing SGSM to be your partner. We are confident that this partnership will be mutually beneficial and rewarding. <br> <br>Thank You. <br><b>Dato’ Shamsudin Ismail</b> <br>President, SGSM <br>22nd February 2024"
+    }
+  ]
+}

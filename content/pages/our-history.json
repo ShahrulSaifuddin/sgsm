@@ -1,0 +1,42 @@
+{
+  "slug": "our-history",
+  "title": "SGSM's History",
+  "description": "Inspired by the Senior Golfer’s Society of Great Britain, Messrs. Cochrane, J.L. Sime, Savage Bailey, Arthur Flowerdew and others, resolved at a meeting held…",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "THE FOUNDING OF THE SOCIETY"
+    },
+    {
+      "type": "paragraph",
+      "html": "Inspired by the Senior Golfer’s Society of Great Britain, Messrs. Cochrane, J.L. Sime, Savage Bailey, Arthur Flowerdew and others, resolved at a meeting held in Kuala Lumpur on 5th May, 1931, to form a Senior Golfers’ Society of Malaya, The age limit was 50. though it was later modified to 48 <br> <br>At this inaugural meeting, C.W.H. Cochrane was elected President, Brown, Vice President and Twiss the first Honorary Secretary and Treasurer. This committee was empowered to frame simple rules and to invite membership. Fifty-three eligible golfers from all over Malaya responded to the invitation before the 30thJune, 1931, and became known as “Founder Members”. <br> <br> The Society’s colours, embracing the colours of the former Federated Malay States were red, yellow, white and black. Membership covered the whole of Malaya, although there was little evidence of activity outside Selangor. In Selangor, matches were the “Ladies”, “Bankers, Brokers and Accountants”, “Dignity, Law and Order” and the Royal Selangor Golf Club. <br> <br>The annual re-union usually took two days and included the A.G.M. There was a match on this occasion as well as competitions for the Bailey Cup. the Ross Baffy and Flowerdew Trophy. In 1942. The Pacific War intervened; however an A.G.M. was held in Changi Prison, and attendance is said to have surpassed all records. <br> <br>The first Constitution and Rules were formulated in 1931. These simple Rules, with minor amendments, continued in use for fifty years and more"
+    },
+    {
+      "type": "paragraph",
+      "html": "Current SGSM Building<br>"
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "SGSM TODAY"
+    },
+    {
+      "type": "image",
+      "image": {
+        "src": "/images/2022/09/oldsgsm.jpg",
+        "alt": "SGSM's History",
+        "width": 404,
+        "height": 478
+      }
+    },
+    {
+      "type": "paragraph",
+      "html": "From the 1980s till the present, a secretariat was established to manage the society. This secretariat is headed by the President and the Council Members as well as Professionals to run and manage the day to day activities of The Society.<br> <br>SGSM is a registered society under the purview of the Commissioner of Sports, Malaysia. SGSM is also a member of CASGA (Confederation of Asean Senior Golfers Association).<br> <br>Currently, SGSM has more than 3,800 members.<br>"
+    },
+    {
+      "type": "paragraph",
+      "html": "The SGSM Secretariat in the 80s"
+    }
+  ]
+}

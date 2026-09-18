@@ -1,0 +1,309 @@
+[
+  {
+    "id": 70,
+    "slug": "dataran-merdeka",
+    "name": "Dataran Merdeka",
+    "mapQuery": "Dataran%20Merdeka"
+  },
+  {
+    "id": 311,
+    "slug": "klgcc",
+    "name": "KLGCC",
+    "address": "10, Jalan 1/70 D",
+    "city": "Bukit Kiara",
+    "province": "Kuala Lumpur",
+    "zip": "60000",
+    "country": "Malaysia",
+    "mapQuery": "KLGCC%2C%2010%2C%20Jalan%201%2F70%20D%2C%20Bukit%20Kiara%2C%20Kuala%20Lumpur%2C%2060000%2C%20Malaysia"
+  },
+  {
+    "id": 317,
+    "slug": "tropicana-golf-club",
+    "name": "Tropicana Golf Club",
+    "mapQuery": "Tropicana%20Golf%20Club"
+  },
+  {
+    "id": 540,
+    "slug": "gunung-geulis-country-club",
+    "name": "Gunung Geulis Country Club",
+    "address": "9VG6+3MH, Jalan Pasir Angin, Sukaraja, Nagrak, Kec. Sukaraja,",
+    "city": "Kabupaten Bogor",
+    "province": "Jawa Barat",
+    "zip": "16720",
+    "country": "Indonesia",
+    "mapQuery": "Gunung%20Geulis%20Country%20Club%2C%209VG6%2B3MH%2C%20Jalan%20Pasir%20Angin%2C%20Sukaraja%2C%20Nagrak%2C%20Kec.%20Sukaraja%2C%2C%20Kabupaten%20Bogor%2C%20Jawa%20Barat%2C%2016720%2C%20Indonesia"
+  },
+  {
+    "id": 544,
+    "slug": "singapore-island-country-club-island-course",
+    "name": "Singapore Island Country Club, Island Course",
+    "address": "180 Island Club Rd",
+    "zip": "578774",
+    "country": "Singapore",
+    "mapQuery": "Singapore%20Island%20Country%20Club%2C%20Island%20Course%2C%20180%20Island%20Club%20Rd%2C%20578774%2C%20Singapore"
+  },
+  {
+    "id": 551,
+    "slug": "sabah-golf-club-country-club",
+    "name": "Sabah Golf Club & Country Club",
+    "address": "Sabah Golf & Country Club, Jalan Kolam, Bukit Padang",
+    "city": "Kota Kinabalu",
+    "province": "Sabah",
+    "zip": "88820",
+    "country": "Malaysia",
+    "mapQuery": "Sabah%20Golf%20Club%20%26%20Country%20Club%2C%20Sabah%20Golf%20%26%20Country%20Club%2C%20Jalan%20Kolam%2C%20Bukit%20Padang%2C%20Kota%20Kinabalu%2C%20Sabah%2C%2088820%2C%20Malaysia"
+  },
+  {
+    "id": 750,
+    "slug": "impian-golf-country-club",
+    "name": "Impian Golf & Country Club",
+    "address": "Jalan Impian Gemilang, Saujana Impian",
+    "city": "Kajang",
+    "province": "Selangor",
+    "zip": "43000",
+    "country": "Malaysia",
+    "mapQuery": "Impian%20Golf%20%26%20Country%20Club%2C%20Jalan%20Impian%20Gemilang%2C%20Saujana%20Impian%2C%20Kajang%2C%20Selangor%2C%2043000%2C%20Malaysia"
+  },
+  {
+    "id": 1427,
+    "slug": "horizon-hills-golf-country-club",
+    "name": "Horizon Hills Golf & Country Club",
+    "address": "1, Jalan Eka",
+    "city": "Bandar Nusajaya",
+    "province": "Johor",
+    "zip": "79100",
+    "country": "Malaysia",
+    "mapQuery": "Horizon%20Hills%20Golf%20%26%20Country%20Club%2C%201%2C%20Jalan%20Eka%2C%20Bandar%20Nusajaya%2C%20Johor%2C%2079100%2C%20Malaysia"
+  },
+  {
+    "id": 1474,
+    "slug": "staffield-golf-country-resort",
+    "name": "Staffield Golf Country Resort",
+    "address": "Batu 13, Jalan Seremban-KL",
+    "city": "Mantin",
+    "province": "Negeri Sembilan",
+    "zip": "71700",
+    "country": "Malaysia",
+    "mapQuery": "Staffield%20Golf%20Country%20Resort%2C%20Batu%2013%2C%20Jalan%20Seremban-KL%2C%20Mantin%2C%20Negeri%20Sembilan%2C%2071700%2C%20Malaysia"
+  },
+  {
+    "id": 1702,
+    "slug": "the-mines-resort-golf-club",
+    "name": "The Mines Resort & Golf Club",
+    "address": "Jalan Kelikir, MINES Resort City",
+    "city": "Seri Kembangan",
+    "province": "Selangor",
+    "zip": "43300",
+    "country": "Malaysia",
+    "mapQuery": "The%20Mines%20Resort%20%26%20Golf%20Club%2C%20Jalan%20Kelikir%2C%20MINES%20Resort%20City%2C%20Seri%20Kembangan%2C%20Selangor%2C%2043300%2C%20Malaysia"
+  },
+  {
+    "id": 1708,
+    "slug": "kota-seriemas-golf-country-club",
+    "name": "Kota Seriemas Golf & Country Club",
+    "address": "Persiaran Seriemas Utama, Kota Seriemas",
+    "city": "Nilai",
+    "province": "Negeri Sembilan",
+    "zip": "71800",
+    "country": "Malaysia",
+    "mapQuery": "Kota%20Seriemas%20Golf%20%26%20Country%20Club%2C%20Persiaran%20Seriemas%20Utama%2C%20Kota%20Seriemas%2C%20Nilai%2C%20Negeri%20Sembilan%2C%2071800%2C%20Malaysia"
+  },
+  {
+    "id": 1722,
+    "slug": "rainbow-hills-golf-club-bogor-jawa-barat",
+    "name": "Rainbow Hills Golf Club (Bogor-Jawa Barat)",
+    "address": "Jl. Padang Golf Bukit Pelangi, Desa Cijayanti - Babakan Madang",
+    "city": "Bogor",
+    "province": "Jawa Barat",
+    "zip": "16720",
+    "country": "Indonesia",
+    "mapQuery": "Rainbow%20Hills%20Golf%20Club%20(Bogor-Jawa%20Barat)%2C%20Jl.%20Padang%20Golf%20Bukit%20Pelangi%2C%20Desa%20Cijayanti%20-%20Babakan%20Madang%2C%20Bogor%2C%20Jawa%20Barat%2C%2016720%2C%20Indonesia"
+  },
+  {
+    "id": 1758,
+    "slug": "kelab-golf-negara-subang-kgns",
+    "name": "Kelab Golf Negara Subang (KGNS)",
+    "address": "Kelab Golf Negara Subang, S11, 47301 Petaling Jaya",
+    "city": "Petaling Jaya",
+    "province": "Selangor",
+    "zip": "47301",
+    "country": "Malaysia",
+    "mapQuery": "Kelab%20Golf%20Negara%20Subang%20(KGNS)%2C%20Kelab%20Golf%20Negara%20Subang%2C%20S11%2C%2047301%20Petaling%20Jaya%2C%20Petaling%20Jaya%2C%20Selangor%2C%2047301%2C%20Malaysia"
+  },
+  {
+    "id": 1805,
+    "slug": "templer-park-country-club-tpcc",
+    "name": "Templer Park Country Club (TPCC)",
+    "address": "Templer Park Country Club, KM21, Jalan Rawang",
+    "city": "Rawang",
+    "province": "Selangor",
+    "zip": "48000",
+    "country": "Malaysia",
+    "mapQuery": "Templer%20Park%20Country%20Club%20(TPCC)%2C%20Templer%20Park%20Country%20Club%2C%20KM21%2C%20Jalan%20Rawang%2C%20Rawang%2C%20Selangor%2C%2048000%2C%20Malaysia"
+  },
+  {
+    "id": 1815,
+    "slug": "imperial-club-golf",
+    "name": "Imperial Club Golf",
+    "address": "Lippo Village, Jl. Pulau Golf No.2700, Bencongan, Kec. Klp. Dua, Kabupaten Tangerang,",
+    "city": "Banten",
+    "province": "Banten",
+    "zip": "15811",
+    "country": "Indonesia",
+    "mapQuery": "Imperial%20Club%20Golf%2C%20Lippo%20Village%2C%20Jl.%20Pulau%20Golf%20No.2700%2C%20Bencongan%2C%20Kec.%20Klp.%20Dua%2C%20Kabupaten%20Tangerang%2C%2C%20Banten%2C%20Banten%2C%2015811%2C%20Indonesia"
+  },
+  {
+    "id": 1829,
+    "slug": "kelab-golf-sarawak",
+    "name": "Kelab Golf Sarawak (KGS)",
+    "address": "Jln Stadium (Ring), Petra Jaya,",
+    "city": "Kuching",
+    "province": "Sarawak",
+    "zip": "93050",
+    "country": "Malaysia",
+    "mapQuery": "Kelab%20Golf%20Sarawak%20(KGS)%2C%20Jln%20Stadium%20(Ring)%2C%20Petra%20Jaya%2C%2C%20Kuching%2C%20Sarawak%2C%2093050%2C%20Malaysia"
+  },
+  {
+    "id": 1852,
+    "slug": "kelab-golf-seri-selangor-kgss",
+    "name": "Kelab Golf Seri Selangor (KGSS)",
+    "address": "Persiaran Damansara Indah, Tropicana,",
+    "city": "Petaling Jaya",
+    "province": "Selangor",
+    "zip": "47810",
+    "country": "Malaysia",
+    "mapQuery": "Kelab%20Golf%20Seri%20Selangor%20(KGSS)%2C%20Persiaran%20Damansara%20Indah%2C%20Tropicana%2C%2C%20Petaling%20Jaya%2C%20Selangor%2C%2047810%2C%20Malaysia"
+  },
+  {
+    "id": 1865,
+    "slug": "palm-resort-golf-country-club",
+    "name": "Palm Resort Golf & Country Club",
+    "address": "Jalan Persiaran, Off, Jalan Jumbo,",
+    "city": "Senai",
+    "province": "Johor",
+    "zip": "81250",
+    "country": "Malaysia",
+    "mapQuery": "Palm%20Resort%20Golf%20%26%20Country%20Club%2C%20Jalan%20Persiaran%2C%20Off%2C%20Jalan%20Jumbo%2C%2C%20Senai%2C%20Johor%2C%2081250%2C%20Malaysia"
+  },
+  {
+    "id": 2045,
+    "slug": "glenmarie-golf-country-club",
+    "name": "Glenmarie Golf & Country Club",
+    "address": "1, Jalan Usahawan U1/8",
+    "city": "Shah Alam",
+    "province": "Selangor",
+    "zip": "40250",
+    "country": "Malaysia",
+    "mapQuery": "Glenmarie%20Golf%20%26%20Country%20Club%2C%201%2C%20Jalan%20Usahawan%20U1%2F8%2C%20Shah%20Alam%2C%20Selangor%2C%2040250%2C%20Malaysia"
+  },
+  {
+    "id": 2121,
+    "slug": "kota-permai-golf-country-club-shah-alam",
+    "name": "Kota Permai Golf & Country Club, Shah Alam",
+    "address": "No. 1, Jalan 31/100A,",
+    "city": "Kota Kemuning, Section 31,",
+    "province": "Selangor",
+    "zip": "40460",
+    "country": "Malaysia",
+    "mapQuery": "Kota%20Permai%20Golf%20%26%20Country%20Club%2C%20Shah%20Alam%2C%20No.%201%2C%20Jalan%2031%2F100A%2C%2C%20Kota%20Kemuning%2C%20Section%2031%2C%2C%20Selangor%2C%2040460%2C%20Malaysia"
+  },
+  {
+    "id": 2178,
+    "slug": "kelab-shah-alam-selangor",
+    "name": "Kelab Shah Alam Selangor",
+    "address": "Kelab Shah Alam Selangor, No. 1A Jalan Aerobik 13/43,",
+    "city": "Shah Alam",
+    "province": "Selangor",
+    "zip": "40704",
+    "country": "Malaysia",
+    "mapQuery": "Kelab%20Shah%20Alam%20Selangor%2C%20Kelab%20Shah%20Alam%20Selangor%2C%20No.%201A%20Jalan%20Aerobik%2013%2F43%2C%2C%20Shah%20Alam%2C%20Selangor%2C%2040704%2C%20Malaysia"
+  },
+  {
+    "id": 2201,
+    "slug": "bukit-jalil-golf-country-resort-bjgcr",
+    "name": "Bukit Jalil Golf & Country Resort (BJGCR)",
+    "address": "Jalan Jalil Perkasa 3, Bukit Jalil,",
+    "city": "Kuala Lumpur",
+    "province": "Wilayah Kuala Lumpur",
+    "zip": "57000",
+    "country": "Malaysia",
+    "mapQuery": "Bukit%20Jalil%20Golf%20%26%20Country%20Resort%20(BJGCR)%2C%20Jalan%20Jalil%20Perkasa%203%2C%20Bukit%20Jalil%2C%2C%20Kuala%20Lumpur%2C%20Wilayah%20Kuala%20Lumpur%2C%2057000%2C%20Malaysia"
+  },
+  {
+    "id": 2228,
+    "slug": "sungai-long-golf-country-club",
+    "name": "Sungai Long Golf & Country Club",
+    "address": "Bandar Sungai long, 11 1/4 MIles, Jalan Cheras,",
+    "city": "Kajang",
+    "province": "Selangor",
+    "zip": "43000",
+    "country": "Malaysia",
+    "mapQuery": "Sungai%20Long%20Golf%20%26%20Country%20Club%2C%20Bandar%20Sungai%20long%2C%2011%201%2F4%20MIles%2C%20Jalan%20Cheras%2C%2C%20Kajang%2C%20Selangor%2C%2043000%2C%20Malaysia"
+  },
+  {
+    "id": 2236,
+    "slug": "ioi-palm-villa-golf-country-club",
+    "name": "IOI Palm Villa Golf & Country Club",
+    "address": "PTD 44500, Jalan Indah Utama, Bandar Putra Kulai,",
+    "city": "Kulai",
+    "province": "Johor",
+    "zip": "81000",
+    "country": "Malaysia",
+    "mapQuery": "IOI%20Palm%20Villa%20Golf%20%26%20Country%20Club%2C%20PTD%2044500%2C%20Jalan%20Indah%20Utama%2C%20Bandar%20Putra%20Kulai%2C%2C%20Kulai%2C%20Johor%2C%2081000%2C%20Malaysia"
+  },
+  {
+    "id": 2246,
+    "slug": "a-famosa-golf-resort-melaka",
+    "name": "A’ Famosa Golf Resort , Melaka",
+    "address": "A'Famosa Golf Resort, Clubhouse, Jalan Kemus / Sempang Ampat, Simpang Ampat,",
+    "city": "Alor Gajah",
+    "province": "Melaka",
+    "zip": "78000",
+    "country": "Malaysia",
+    "mapQuery": "A%E2%80%99%20Famosa%20Golf%20Resort%20%2C%20Melaka%2C%20A'Famosa%20Golf%20Resort%2C%20Clubhouse%2C%20Jalan%20Kemus%20%2F%20Sempang%20Ampat%2C%20Simpang%20Ampat%2C%2C%20Alor%20Gajah%2C%20Melaka%2C%2078000%2C%20Malaysia"
+  },
+  {
+    "id": 2320,
+    "slug": "seremban-internationational-golf-club-sigc-seremban",
+    "name": "Seremban Internationational Golf Club (SIGC)",
+    "address": "SIGC, Seremban International Golf Club,",
+    "city": "Seremban",
+    "province": "Negeri Sembilan",
+    "zip": "70170",
+    "country": "Malaysia",
+    "mapQuery": "Seremban%20Internationational%20Golf%20Club%20(SIGC)%2C%20SIGC%2C%20Seremban%20International%20Golf%20Club%2C%2C%20Seremban%2C%20Negeri%20Sembilan%2C%2070170%2C%20Malaysia"
+  },
+  {
+    "id": 2330,
+    "slug": "tropicana-golf-country-resort",
+    "name": "Tropicana Golf & Country Resort",
+    "address": "Jalan Kelab Tropicana",
+    "city": "Petaling Jaya",
+    "province": "Selangor",
+    "zip": "47410",
+    "country": "Malaysia",
+    "mapQuery": "Tropicana%20Golf%20%26%20Country%20Resort%2C%20Jalan%20Kelab%20Tropicana%2C%20Petaling%20Jaya%2C%20Selangor%2C%2047410%2C%20Malaysia"
+  },
+  {
+    "id": 2340,
+    "slug": "royal-lake-club-kuala-lumpur",
+    "name": "Royal Lake Club Kuala Lumpur",
+    "address": "Jalan Cenderamulia, Tasik Perdana",
+    "city": "Kuala Lumpur",
+    "province": "Wilayah Persekutuan Kuala Lumpur",
+    "zip": "50480",
+    "country": "Malaysia",
+    "mapQuery": "Royal%20Lake%20Club%20Kuala%20Lumpur%2C%20Jalan%20Cenderamulia%2C%20Tasik%20Perdana%2C%20Kuala%20Lumpur%2C%20Wilayah%20Persekutuan%20Kuala%20Lumpur%2C%2050480%2C%20Malaysia"
+  },
+  {
+    "id": 2380,
+    "slug": "nilai-springs-golf-country-club-negeri-sembilan",
+    "name": "Nilai Springs Golf & Country Club, Negeri Sembilan",
+    "address": "PT4770, Nilai Springs Putra Nilai",
+    "city": "Nilai",
+    "province": "Negeri Sembilan",
+    "zip": "71800",
+    "country": "Malaysia",
+    "mapQuery": "Nilai%20Springs%20Golf%20%26%20Country%20Club%2C%20Negeri%20Sembilan%2C%20PT4770%2C%20Nilai%20Springs%20Putra%20Nilai%2C%20Nilai%2C%20Negeri%20Sembilan%2C%2071800%2C%20Malaysia"
+  }
+]

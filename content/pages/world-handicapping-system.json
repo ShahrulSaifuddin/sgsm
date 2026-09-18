@@ -1,0 +1,84 @@
+{
+  "slug": "world-handicapping-system",
+  "title": "World Handicapping System",
+  "description": "Frequently asked questions on registering, applying for and maintaining a WHS golf handicap through SGSM.",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "FAQs on World Handicapping System (WHS)"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "text": "Why do you need a WHS handicap"
+    },
+    {
+      "type": "paragraph",
+      "html": "Most clubs and official tournaments require a handicap as a registration requirement to play . You may be refused entry or unable to play with your friends without a valid handicap"
+    },
+    {
+      "type": "accordion",
+      "items": [
+        {
+          "title": "How to get WHS handicap?",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "html": "SGSM is now an official agent WHS system to MGA. You can get you WHS from SGSM and it is open to all golfers. Thus, to allow golfers who aren't members of a golf club In Malaysia to obtain and maintain a handicap. Kindly contact 03-7733 8858 or WhatApps 011-6335 8797 (during office hours) to able us to send you the application form."
+            }
+          ]
+        },
+        {
+          "title": "How to apply for WHS handicap?",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "html": "Please complete the application form. And proceed with the payment of RM 200.00 per year to Persatuan Senior Golfers Malaysia Maybank account no: 5145 4310 0215 via online transfer/deposit machine/cheque. With the payment and application, kindly snap photo of your 5 latest scorecard and send to SGSM (011-6335 8797)"
+            }
+          ]
+        },
+        {
+          "title": "After registration and payment, what next?",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "html": "Upon successful registration, you will received notification via Whatapps from WHS GoGolf Administrator together with WHS number. Golfers are advised to install the free MGA WHS mobile app from Apple AppStore or Google Play; and begin to familiarise with the App. The handicap index will be appear within 24 hours as it already key-in into system."
+            },
+            {
+              "type": "paragraph",
+              "html": "Download<a href=\"/files/2022/10/whsmobileappsuserguide2022.pdf\">here</a> for the user guide below on how to log-in"
+            }
+          ]
+        },
+        {
+          "title": "How to submit golf scores?",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "html": "For scores submissions for handicap can be done via WhatApps. Kindly snap photo of your scorecard and send to 010-558 3737 (WHS GoGolf). The WHS GoGolf Administrator will update your score during office working hours from Monday to Friday (except public holidays) from 9am to 5pm."
+            }
+          ]
+        },
+        {
+          "title": "For subsequent year, how much I have to pay?",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "html": "To continue for subsequent year, you have to make payment of RM 200.00 to SGSM. Example if you register on 1st of January 2023, than for renewal you have to make payment before 31st December 2022."
+            }
+          ]
+        },
+        {
+          "title": "If I have problems to log in the Apps or general enquires?",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "html": "You can WhatApps to 010-558 3737 (WHS GoGolf). The WHS GoGolf Administrator will respond back to you during office working hours from Monday to Friday (except public holidays) from 9am to 5pm."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
