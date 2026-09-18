@@ -1,0 +1,103 @@
+{
+  "name": "Senior Golfers' Society of Malaysia",
+  "shortName": "SGSM",
+  "tagline": "Malaysia's foremost society for veteran golfers since 1931",
+  "founded": "1931",
+  "foundedNote": "Formed at a meeting in Kuala Lumpur on 5 May 1931.",
+  "membershipAge": 55,
+  "memberCount": "3,800+",
+  "address": {
+    "lines": [
+      "Bangunan Persatuan Senior Golfers Malaysia",
+      "Changkat Abang Haji Openg",
+      "Taman Tun Dr Ismail"
+    ],
+    "city": "Kuala Lumpur",
+    "postcode": "60000",
+    "country": "Malaysia"
+  },
+  "email": "golf@sgsm.com.my",
+  "phone": "+603 7732 8857",
+  "phoneHref": "tel:+60377328857",
+  "hours": [
+    { "label": "Mon – Fri", "value": "9am – 5pm" },
+    { "label": "Sat – Sun", "value": "Closed" }
+  ],
+  "nav": [
+    { "label": "Home", "href": "/" },
+    {
+      "label": "Introduction",
+      "href": "/about-us",
+      "children": [
+        { "label": "President's Message", "href": "/president-message" },
+        { "label": "About SGSM", "href": "/about-us" },
+        { "label": "SGSM's History", "href": "/our-history" },
+        { "label": "Patrons and Honorary Members", "href": "/patrons-and-honorary-members" },
+        { "label": "Past Presidents", "href": "/past-presidents" },
+        { "label": "Council Members 2025 – 2027", "href": "/council" },
+        { "label": "Working Committees", "href": "/working-committees" },
+        { "label": "SGSM Building", "href": "/sgsm-building" },
+        { "label": "Collaboration Partners", "href": "/collaborative-partnership" }
+      ]
+    },
+    {
+      "label": "Events",
+      "href": "/events",
+      "children": [
+        { "label": "Event List", "href": "/events" },
+        { "label": "Gallery", "href": "/event-gallery" }
+      ]
+    },
+    { "label": "News", "href": "/news" },
+    {
+      "label": "Privileges",
+      "href": "/golfing",
+      "children": [
+        { "label": "Golfing", "href": "/golfing" },
+        { "label": "Hotels and Restaurants", "href": "/hotels-and-restaurants" },
+        { "label": "Others", "href": "/others" },
+        { "label": "Partners and Sponsors", "href": "/partners-and-sponsors" },
+        { "label": "World Handicapping System", "href": "/world-handicapping-system" }
+      ]
+    },
+    { "label": "Downloads", "href": "/downloads" },
+    { "label": "Contact Us", "href": "/contact-us" }
+  ],
+  "footerNav": [
+    {
+      "label": "Society",
+      "href": "/about-us",
+      "children": [
+        { "label": "About SGSM", "href": "/about-us" },
+        { "label": "President's Message", "href": "/president-message" },
+        { "label": "SGSM's History", "href": "/our-history" },
+        { "label": "Council Members", "href": "/council" },
+        { "label": "SGSM Building", "href": "/sgsm-building" }
+      ]
+    },
+    {
+      "label": "Golf",
+      "href": "/events",
+      "children": [
+        { "label": "Event List", "href": "/events" },
+        { "label": "Event Gallery", "href": "/event-gallery" },
+        { "label": "News", "href": "/news" },
+        { "label": "World Handicapping System", "href": "/world-handicapping-system" }
+      ]
+    },
+    {
+      "label": "Members",
+      "href": "/join",
+      "children": [
+        { "label": "Join SGSM", "href": "/join" },
+        { "label": "Golfing Privileges", "href": "/golfing" },
+        { "label": "Hotels and Restaurants", "href": "/hotels-and-restaurants" },
+        { "label": "Downloads", "href": "/downloads" },
+        { "label": "Contact Us", "href": "/contact-us" }
+      ]
+    }
+  ],
+  "cta": { "label": "Become a Member", "href": "/join" },
+  "affiliations": ["CASGA — Confederation of ASEAN Senior Golfers Association"],
+  "registration": "A registered society under the purview of the Commissioner of Sports, Malaysia."
+}

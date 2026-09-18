@@ -1,0 +1,79 @@
+[
+  {
+    "id": 337,
+    "title": "SGSM Constitution",
+    "category": "Downloads",
+    "file": {
+      "src": "/files/perlembagaan-sgsm-02112022.pdf",
+      "ext": "pdf",
+      "sizeBytes": 513283
+    },
+    "updated": "2023-01-05"
+  },
+  {
+    "id": 556,
+    "title": "SGSM Application Membership 2024",
+    "category": "Downloads",
+    "file": {
+      "src": "/files/new-application-membership-2024.pdf",
+      "ext": "pdf",
+      "sizeBytes": 157693
+    },
+    "updated": "2024-05-31"
+  },
+  {
+    "id": 1033,
+    "title": "SGSM WHS Application Form",
+    "category": "Downloads",
+    "file": {
+      "src": "/files/sgsm-gogolf-application-form-v4.pdf",
+      "ext": "pdf",
+      "sizeBytes": 485359
+    },
+    "updated": "2023-02-08"
+  },
+  {
+    "id": 1222,
+    "title": "WHS Mobile Apps User Guide",
+    "category": "Downloads",
+    "file": {
+      "src": "/files/whs-mobile-apps-user-guide-2022.pdf",
+      "ext": "pdf",
+      "sizeBytes": 857093
+    },
+    "updated": "2022-10-07"
+  },
+  {
+    "id": 1885,
+    "title": "SGSM Fixtures 2025",
+    "category": "Downloads",
+    "file": {
+      "src": "/files/sgsm-fixtures-2025.pdf",
+      "ext": "pdf",
+      "sizeBytes": 38368
+    },
+    "updated": "2024-11-28"
+  },
+  {
+    "id": 2042,
+    "title": "SGSM Audited Account for YE 2023",
+    "category": "Downloads",
+    "file": {
+      "src": "/files/sgsm-audited-account-for-ye-2023.pdf",
+      "ext": "pdf",
+      "sizeBytes": 398067
+    },
+    "updated": "2024-05-31"
+  },
+  {
+    "id": 2043,
+    "title": "90th AGM Council Report for Year 2023",
+    "category": "Downloads",
+    "file": {
+      "src": "/files/90th-agm-council-report-for-year-2023.pdf",
+      "ext": "pdf",
+      "sizeBytes": 1748741
+    },
+    "updated": "2024-05-31"
+  }
+]

@@ -1,0 +1,16 @@
+{
+  "slug": "others",
+  "title": "Others",
+  "description": "The page is under construction... We are preparing something exciting for you and will update this page at the appropriate time.",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "TO BE UPDATED"
+    },
+    {
+      "type": "paragraph",
+      "html": "The page is under construction... We are preparing something exciting for you and will update this page at the appropriate time."
+    }
+  ]
+}

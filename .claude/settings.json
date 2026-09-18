@@ -1,0 +1,46 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(npm run dev:*)",
+      "Bash(npm run build:*)",
+      "Bash(npm start:*)",
+      "Bash(npx tsc:*)",
+      "Bash(npm run lint:*)",
+      "Bash(npm run:*)",
+      "Bash(node scripts/*)",
+      "Bash(git status:*)",
+      "Bash(git diff:*)",
+      "Bash(git log:*)",
+      "Bash(git branch:*)",
+      "Bash(git show:*)",
+      "PowerShell(npm run dev:*)",
+      "PowerShell(npm run build:*)",
+      "PowerShell(npm start:*)",
+      "PowerShell(npx tsc:*)",
+      "PowerShell(npm run lint:*)",
+      "PowerShell(npm run:*)",
+      "PowerShell(node scripts/*)",
+      "PowerShell(git status:*)",
+      "PowerShell(git diff:*)",
+      "PowerShell(git log:*)",
+      "PowerShell(git branch:*)",
+      "PowerShell(git show:*)",
+      "Read",
+      "Glob",
+      "Grep"
+    ],
+    "deny": [
+      "Bash(git push:*)",
+      "Bash(git force-push:*)",
+      "Bash(rm -rf:*)",
+      "Bash(npm publish:*)",
+      "PowerShell(git push:*)",
+      "PowerShell(git force-push:*)",
+      "PowerShell(Remove-Item -Recurse -Force:*)",
+      "PowerShell(npm publish:*)"
+    ]
+  },
+  "env": {
+    "NEXT_TELEMETRY_DISABLED": "1"
+  }
+}

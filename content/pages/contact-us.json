@@ -1,0 +1,30 @@
+{
+  "slug": "contact-us",
+  "title": "Contact Us",
+  "description": "Office address, opening hours and how to reach the Senior Golfers' Society of Malaysia.",
+  "blocks": [
+    {
+      "type": "cards",
+      "items": [
+        {
+          "title": "our office",
+          "body": "Bangunan Persatuan Senior Golfers Malaysia, Changkat Abang Haji Openg, Taman Tun Dr Ismail, 60000 Kuala Lumpur"
+        },
+        {
+          "title": "Open hours",
+          "body": "Mon - Fri : 9am - 5pm, Sat - Sun : Closed"
+        },
+        {
+          "title": "Get in touch",
+          "body": ": +603 7732 8857, : golf@sgsm.com.my, : +6012 852 8857"
+        }
+      ]
+    },
+    {
+      "type": "embed",
+      "kind": "map",
+      "src": "https://maps.google.com/maps?output=embed&q=%E2%80%8BNo%208%2C%C2%A0%0ABangunan%20Persatuan%20Senior%20Golfers%20Malaysia%2C%C2%A0%0AChangkat%20Abang%20Haji%20Openg%2C%C2%A0%0ATaman%20Tun%20Dr%20Ismail%2C%C2%A0%0A60000%20Kuala%20Lumpur&z=15&t=m",
+      "title": "SGSM Office Location"
+    }
+  ]
+}

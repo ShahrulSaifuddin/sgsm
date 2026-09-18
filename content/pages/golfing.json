@@ -1,0 +1,122 @@
+{
+  "slug": "golfing",
+  "title": "Golfing",
+  "description": "Golfing privileges for SGSM members at partner clubs and resorts across Malaysia.",
+  "blocks": [
+    {
+      "type": "cards",
+      "items": [
+        {
+          "title": "THE MINES RESORT & COUNTRY CLUB",
+          "image": {
+            "src": "/images/2024/05/the-mines.png",
+            "alt": "THE MINES RESORT & COUNTRY CLUB",
+            "width": 225,
+            "height": 225
+          },
+          "href": "/news/the-mines-resort-country-club"
+        },
+        {
+          "title": "Impian Golf & Country Club",
+          "image": {
+            "src": "/images/2022/10/impian-tb.png",
+            "alt": "Impian Golf & Country Club",
+            "width": 325,
+            "height": 250
+          },
+          "href": "/news/impian-golf-country-club"
+        },
+        {
+          "title": "Kelab Rahman Putra Malaysia",
+          "image": {
+            "src": "/images/2022/10/kelab-rahman-tb.png",
+            "alt": "Kelab Rahman Putra Malaysia",
+            "width": 325,
+            "height": 250
+          },
+          "href": "/news/kelab-rahman-putra-malaysia"
+        },
+        {
+          "title": "Kelab Golf Negara Subang",
+          "image": {
+            "src": "/images/2022/10/kgns-tb.png",
+            "alt": "Kelab Golf Negara Subang",
+            "width": 325,
+            "height": 250
+          },
+          "href": "/news/kelab-golf-negara-subang"
+        },
+        {
+          "title": "Kelab Rekreasi Tentera Udara",
+          "image": {
+            "src": "/images/2022/10/krtu-tb.png",
+            "alt": "Kelab Rekreasi Tentera Udara",
+            "width": 325,
+            "height": 250
+          },
+          "href": "/news/kelab-rekreasi-tentera-udara"
+        },
+        {
+          "title": "Kota Permai Golf & Country Club",
+          "image": {
+            "src": "/images/2022/10/kota-permai-tb.png",
+            "alt": "Kota Permai Golf & Country Club",
+            "width": 325,
+            "height": 250
+          },
+          "href": "/news/kota-permai-golf-country-club"
+        },
+        {
+          "title": "Kuala Lumpur Golf & Country Club",
+          "image": {
+            "src": "/images/2022/10/klgcc-tb.png",
+            "alt": "Kuala Lumpur Golf & Country Club",
+            "width": 325,
+            "height": 250
+          },
+          "href": "/news/kuala-lumpur-golf-country-club"
+        },
+        {
+          "title": "Staffield Country Resort",
+          "image": {
+            "src": "/images/2022/10/staffield-tb.png",
+            "alt": "Staffield Country Resort",
+            "width": 325,
+            "height": 250
+          },
+          "href": "/news/staffield-country-resort"
+        },
+        {
+          "title": "Templer Park Country Club",
+          "image": {
+            "src": "/images/2022/10/templer-tb.png",
+            "alt": "Templer Park Country Club",
+            "width": 325,
+            "height": 250
+          },
+          "href": "/news/templer-park-country-club"
+        },
+        {
+          "title": "Tiara Melaka Golf & Country Club",
+          "image": {
+            "src": "/images/2022/10/tiara-tb.png",
+            "alt": "Tiara Melaka Golf & Country Club",
+            "width": 325,
+            "height": 250
+          },
+          "href": "/news/tiara-melaka-golf-country-club"
+        },
+        {
+          "title": "Tropicana Golf & Country Resort",
+          "image": {
+            "src": "/images/2022/10/tropicana-tb.png",
+            "alt": "Tropicana Golf & Country Resort",
+            "width": 325,
+            "height": 250
+          },
+          "href": "/news/tropicana-golf-country-resort"
+        }
+      ]
+    }
+  ]
+}

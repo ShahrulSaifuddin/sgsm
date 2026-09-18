@@ -1,0 +1,25 @@
+{
+  "slug": "about-us",
+  "title": "About SGSM",
+  "description": "The Senior Golfer’s Society of Malaysia, or SGSM in short, is an exclusive society for golfers who are 55 years of age and above. The society, with a history…",
+  "blocks": [
+    {
+      "type": "image",
+      "image": {
+        "src": "/images/2022/10/sgsm_logo-removebg-preview1.png",
+        "alt": "About SGSM",
+        "width": 501,
+        "height": 498
+      }
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "SENIOR GOLFERS' SOCIETY OF MALAYSIA"
+    },
+    {
+      "type": "paragraph",
+      "html": "The Senior Golfer’s Society of Malaysia, or SGSM in short, is an exclusive society for golfers who are 55 years of age and above. The society, with a history dating back to 1930s, is the nation’s foremost society for veteran golfers, with distinguished members who share a passion for this gentleman’s sport. Although SGSM is based in Kuala Lumpur, membership to the Society is open to all Malaysians."
+    }
+  ]
+}

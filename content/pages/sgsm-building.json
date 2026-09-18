@@ -1,0 +1,25 @@
+{
+  "slug": "sgsm-building",
+  "title": "SGSM Building",
+  "description": "SGSM’s pride lies in the heart of Bukit Kiara, Taman Tun Dr Ismail. The Society’s very own three-storey building, which took four years to construct, was…",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Senior Golfers' Society of Malaysia Building"
+    },
+    {
+      "type": "image",
+      "image": {
+        "src": "/images/2022/09/sgsmbuilding.jpg",
+        "alt": "SGSM Building",
+        "width": 853,
+        "height": 566
+      }
+    },
+    {
+      "type": "paragraph",
+      "html": "SGSM’s pride lies in the heart of Bukit Kiara, Taman Tun Dr Ismail. The Society’s very own three-storey building, which took four years to construct, was officially opened in 2016. The building stands as a symbol of SGSM’s strength as the society grew stronger year after year. <br> <br>The building has a Meeting Room, Reading and Recreation Room, 2 Suraus with the other standard facilities. <br> <br> The journey in constructing the building in 1991 was not an easy one as securing funds posed a big challenge to the Society. With the help of our Council Members, who assisted with the financing, and with a fund-raising golf tournament, our building was finally completed. <br> <br> SGSM would like to extend a big “Thank you” to Datuk Seri Ruslin Hasan, our former Vice President and former Mayor of Kuala Lumpur for his unwavering assistance. The Building stands tall today and is our pride in seeing or Society grow in strength."
+    }
+  ]
+}
