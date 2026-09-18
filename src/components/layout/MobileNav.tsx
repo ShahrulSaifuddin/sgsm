@@ -198,8 +198,20 @@ export function MobileNav({ site, pathname, open, onClose }: MobileNavProps) {
                           aria-hidden="true"
                         />
                       </button>
-                      {groupOpen ? (
-                        <ul className="ml-3 flex flex-col gap-1 border-l border-cream-50/15 pl-3">
+                      {/*
+                        Animated via the shared `.expand-collapse`
+                        grid-template-rows technique (see globals.css) instead
+                        of conditional rendering, so the submenu slides open
+                        rather than snapping. Because the CSS collapse keeps
+                        the <ul> technically laid out (just at ~zero visible
+                        height), `inert` is required while closed to keep its
+                        links out of the tab order and off the a11y tree.
+                      */}
+                      <div className="expand-collapse" data-open={groupOpen ? "true" : "false"}>
+                        <ul
+                          inert={!groupOpen}
+                          className="ml-3 flex flex-col gap-1 border-l border-cream-50/15 pl-3"
+                        >
                           {item.children?.map((child) => (
                             <li key={child.href}>
                               <Link
@@ -213,7 +225,7 @@ export function MobileNav({ site, pathname, open, onClose }: MobileNavProps) {
                             </li>
                           ))}
                         </ul>
-                      ) : null}
+                      </div>
                     </div>
                   ) : (
                     <Link

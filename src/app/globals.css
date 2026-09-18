@@ -199,6 +199,70 @@
 }
 
 /* -------------------------------------------------------------------- */
+/* Expand/collapse — accordion panels & mobile nav submenus              */
+/* -------------------------------------------------------------------- */
+@layer components {
+  /*
+   * Deliberate, narrow exception to the "animate only transform/opacity,
+   * never width/height" motion rule: a genuine expand/collapse over
+   * arbitrary, reflowing content cannot be expressed with transform/opacity
+   * alone without clipping tricks that break text reflow. Instead we
+   * animate a CSS Grid track — `grid-template-rows` from `0fr` to `1fr` —
+   * which the layout engine treats as a track-sizing animation, not a
+   * `height` animation. It needs no JS measurement and handles arbitrary
+   * content height.
+   *
+   * Scope: this exception applies ONLY to user-initiated expand/collapse
+   * interactions (the accordion in Accordion.tsx, mobile nav submenus in
+   * MobileNav.tsx). It must not be reached for scroll- or hover-driven
+   * animation — those stay transform/opacity per the contract.
+   *
+   * The grid's single child gets `overflow: hidden` (required so content
+   * doesn't poke through while the track is near `0fr`) plus its own
+   * opacity fade, so the collapse reads as a fade+shrink rather than a
+   * hard shutter.
+   *
+   * Accessibility trap: `grid-template-rows: 0fr` does NOT remove the
+   * collapsed content from the tab order or the accessibility tree — it
+   * is still technically laid out, just at ~zero visible height. Unlike
+   * the native `hidden` attribute (or unmounting) that this replaces, a
+   * CSS-only collapse must be paired with `inert` on the collapsible
+   * child in the component, driven directly off the open/closed state
+   * (`inert={!isOpen}`). `inert` takes effect immediately on state
+   * change — it does not need to wait for the animation to finish,
+   * because it only affects focusability/AT exposure, not paint.
+   *
+   * Reduced motion: no override is needed here — the sitewide
+   * `prefers-reduced-motion: reduce` rule above already forces every
+   * `transition-duration` to 0.01ms, which collapses this to an
+   * effectively-instant snap while still landing on the correct final
+   * `grid-template-rows`/opacity values (no stuck-half-open panel).
+   */
+  .expand-collapse {
+    display: grid;
+    grid-template-rows: 0fr;
+    transition: grid-template-rows 0.18s ease-in;
+  }
+
+  .expand-collapse[data-open="true"] {
+    grid-template-rows: 1fr;
+    transition: grid-template-rows 0.22s ease-out;
+  }
+
+  .expand-collapse > * {
+    overflow: hidden;
+    min-height: 0;
+    opacity: 0;
+    transition: opacity 0.15s ease-in;
+  }
+
+  .expand-collapse[data-open="true"] > * {
+    opacity: 1;
+    transition: opacity 0.2s ease-out;
+  }
+}
+
+/* -------------------------------------------------------------------- */
 /* Skip-to-content link (contract §7)                                    */
 /* -------------------------------------------------------------------- */
 @layer components {

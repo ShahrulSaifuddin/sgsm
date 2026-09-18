@@ -22,9 +22,14 @@ export type AccordionProps = {
 /**
  * Keyboard-accessible accordion (the one genuinely interactive leaf `Prose`
  * needs). Follows the WAI-ARIA accordion pattern: a heading wraps a button
- * with `aria-expanded`/`aria-controls`, the panel is a `role="region"`
- * hidden via the native `hidden` attribute (never an animated height —
- * the contract forbids animating height, so we don't even attempt it).
+ * with `aria-expanded`/`aria-controls`, the panel is a `role="region"`.
+ * The panel's open/close is animated with the `grid-template-rows: 0fr → 1fr`
+ * technique (see `.expand-collapse` in globals.css) rather than the native
+ * `hidden` attribute — that CSS class is a deliberate, narrow exception to
+ * the "never animate height" motion rule, documented in globals.css. Because
+ * a CSS-only collapse keeps the panel technically laid out (unlike `hidden`,
+ * which removes it from the tab order), the panel also gets `inert` while
+ * closed so its contents stay unfocusable and hidden from assistive tech.
  * Arrow keys / Home / End move focus between headers.
  */
 export function Accordion({
@@ -106,8 +111,18 @@ export function Accordion({
                 />
               </button>
             </h3>
-            <div id={panelId} role="region" aria-labelledby={headerId} hidden={!isOpen} className="px-5 pb-5 pt-1">
-              {panel.content}
+            <div className="expand-collapse" data-open={isOpen ? "true" : "false"}>
+              {/*
+                The `.expand-collapse` grid item (this div) must carry no
+                padding/border of its own — the grid track-sizing algorithm
+                always counts a grid item's own padding/border toward its
+                automatic minimum size even with `overflow: hidden`, which
+                would stop the row from ever reaching a true 0fr. Padding
+                lives one level deeper instead, where it doesn't count.
+              */}
+              <div id={panelId} role="region" aria-labelledby={headerId} inert={!isOpen}>
+                <div className="px-5 pb-5 pt-1">{panel.content}</div>
+              </div>
             </div>
           </div>
         );
